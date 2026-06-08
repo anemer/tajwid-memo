@@ -90,12 +90,7 @@
                   </th>
                   <th class="p-0 sifat-header-6">
                     <div class="sort-button sifat-header" data-sort-column="7">
-                      <span class="sifat-header-text">الصفة 6</span>
-                    </div>
-                  </th>
-                  <th class="p-0 sifat-header-7">
-                    <div class="sort-button sifat-header" data-sort-column="8">
-                      <span class="sifat-header-text">الصفة 7</span>
+                      <span class="sifat-header-text">صفات اخرى</span>
                     </div>
                   </th>
                 </tr>
@@ -226,6 +221,8 @@
             .map(([key, sifat]) => {
               console.log("Rendering sifat:", key, sifat);
               const arabicName = sifat.arabic_name || "";
+              const sifatAcronym = toArabicAcronym(arabicName);
+              const sifatClass = sifat.css_class || "";
               const oppositeSifat = sifat.opposite
                 ? data.sifat[sifat.opposite]
                 : null;
@@ -239,7 +236,12 @@
               const cells = [];
               cells.push([
                 "في  جدول الحروف",
-                `<span class="${sifat.css_class} sifat-legend">${arabicName}</span>`,
+                `<span class="sifat-name ${sifatClass}" title="${arabicName}" aria-label="${arabicName}">
+                        <span class="sifat-full">${arabicName}</span>
+                        <span class="sifat-acronym" aria-hidden="true">${sifatAcronym}</span>
+                        </span>`,
+
+                
               ]);
 
               if (sifat.opposite) {
@@ -249,16 +251,18 @@
                 ]);
               }
               cells.push([
-                "شرح الصفة",
+                "<h4>شرح الصفة</h4>",
                 `<p>${sifat.description || ""}</p>`,
               ]);
 
-              letters = sifat.letters_memo
-                ? `<p>احرف عبارة:</p>
-                    <span class="amiri-quran-regular">${sifat.letters_memo}</span>`
-                : `<p class="">${sifat.letters || ""}</p>`;
-
-              cells.push([`<h3 class="">حروفه</h3>`, letters]);
+              let letters = ""; 
+                if (sifat.letters_memo) {
+                    letters += `<span class="sepia amiri-quran-regular">${sifat.letters_memo}</span>`;    
+                }
+                if (sifat.letters) {
+                    letters += `<p class="">${sifat.letters}</p>`;
+                }
+              cells.push([`<h4 class="">حروفه</h4>`, letters]);
 
               const tableBegin = `<table class=" sifat-legend-table">
                           <thead> 
@@ -298,20 +302,41 @@
 
             tableBody.innerHTML = sortedLetters
               .map((letter) => {
-                const sifatCells = Array.from({ length: 7 }, (_, index) => {
+                const sifatCells = Array.from({ length: 6 }, (_, index) => {
                   const sifatKey = letter.sifat[index];
                   const sifatMeta = sifatKey ? sifatLookup[sifatKey] : null;
                   const sifatName = sifatMeta?.arabic_name || sifatKey || "";
                   const sifatClass = sifatMeta?.css_class || "";
                   const sifatAcronym = toArabicAcronym(sifatName);
+let content = `
 
-                  return `<td class="p-0 sifat-cell">
                     <a href="#sifat-${sifatKey}" class="sifat-link" aria-label="شرح صفة ${sifatName}">
                     <span class="sifat-name ${sifatClass}" title="${sifatName}" aria-label="${sifatName}">
                         <span class="sifat-full">${sifatName}</span>
                         <span class="sifat-acronym" aria-hidden="true">${sifatAcronym}</span>
                         </span>
                         </a>
+                        `;
+                        if (index === 5 && letter.sifat.length > 6) {
+                            for (let i = 6; i < letter.sifat.length; i++) {
+                                const extraSifatKey = letter.sifat[i];
+                                const extraSifatMeta = sifatLookup[extraSifatKey];
+                                const extraSifatName = extraSifatMeta?.arabic_name || extraSifatKey || "";
+                                const extraSifatClass = extraSifatMeta?.css_class || "";
+                                const extraSifatAcronym = toArabicAcronym(extraSifatName);
+                                content += `
+                                    <a href="#sifat-${extraSifatKey}" class="sifat-link" aria-label="شرح صفة ${extraSifatName}">
+                                        <span class="sifat-name ${extraSifatClass}" title="${extraSifatName}" aria-label="${extraSifatName}">
+                                            <span class="sifat-full">${extraSifatName}</span>
+                                            <span class="sifat-acronym" aria-hidden="true">${extraSifatAcronym}</span>
+                                        </span>
+                                    </a>
+                                `;
+                        }
+                    }
+
+                  return `<td class="p-0 sifat-cell">
+                ${content}
                         </td>`;
                 }).join("");
 
