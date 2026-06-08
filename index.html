@@ -3,10 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>جدول الحروف والصفات</title>
+    <title>Tajwid Memo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <meta name="description" content="A Tajwid memo app to help memorize the characteristics of Arabic letters in the Quran.">
+    <meta name="keywords" content="Tajwid, Arabic letters, Quran, memorization, characteristics, صفات الحروف العربية, تجويد">
+    <meta name="author" content="الحسين نمر">
+</head>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Amiri+Quran&display=swap" rel="stylesheet">
 </head>
@@ -14,20 +18,20 @@
     <div class="container mt-5">
         <div class="row">
             <div class="col-md-12">
-                <h1 class="mb-4">الحروف العربية والصفات</h1>
+                <h1 class="mb-4">صفات الحروف</h1>
                 <div class="table-responsive">
                 <table class="table table-striped table-hover align-middle text-center">
-                    <thead class="table-dark">
+                    <thead class="">
                         <tr>
                             <th><button type="button" class="sort-button" data-sort-column="0">حرف</button></th>
-                            <th><button type="button" class="sort-button" data-sort-column="1">الاسم</button></th>
-                            <th><button type="button" class="sort-button" data-sort-column="2">الجهر / الهمس</button></th>
-                            <th><button type="button" class="sort-button" data-sort-column="3">الشدة / الرخاوة</button></th>
-                            <th><button type="button" class="sort-button" data-sort-column="4">الاستعلاء / الاستفال</button></th>
-                            <th><button type="button" class="sort-button" data-sort-column="5">الإطباق / الانفتاح</button></th>
-                            <th><button type="button" class="sort-button" data-sort-column="6">الإذلاق / الإصمات</button></th>
-                            <th><button type="button" class="sort-button" data-sort-column="7">الصفة 6</button></th>
-                            <th><button type="button" class="sort-button" data-sort-column="8">الصفة 7</button></th>
+                            <th class="only-wide"><button type="button" class="sort-button" data-sort-column="1">الاسم</button></th>
+                            <th class="p-0 sifat-header-1"><div class="sort-button sifat-header" data-sort-column="2"><span class="sifat-header-text">الجهر او الهمس</span></div></th>
+                            <th class="p-0 sifat-header-2"><div class="sort-button sifat-header" data-sort-column="3"><span class="sifat-header-text">الشدة / الرخاوة</span></div></th>
+                            <th class="p-0 sifat-header-3"><div class="sort-button sifat-header" data-sort-column="4"><span class="sifat-header-text">الاستعلاء / الاستفال</span></div></th>
+                            <th class="p-0 sifat-header-4"><div class="sort-button sifat-header" data-sort-column="5"><span class="sifat-header-text">الإطباق / الانفتاح</span></div></th>
+                            <th class="p-0 sifat-header-5"><div class="sort-button sifat-header" data-sort-column="6"><span class="sifat-header-text">الإذلاق / الإصمات</span></div></th>
+                            <th class="p-0 sifat-header-6"><div class="sort-button sifat-header" data-sort-column="7"><span class="sifat-header-text">الصفة 6</span></div></th>
+                            <th class="p-0 sifat-header-7"><div class="sort-button sifat-header" data-sort-column="8"><span class="sifat-header-text">الصفة 7</span></div></th>
                         </tr>
                     </thead>
                     <tbody id="letters-table-body">
@@ -122,6 +126,27 @@
             updateSortButtons();
         }
 
+        function toArabicAcronym(text) {
+            const normalizedText = (text || '')
+                .replace(/[\u064B-\u065F\u0670]/g, '')
+                .trim();
+
+            if (!normalizedText) {
+                return '';
+            }
+
+            const tokens = normalizedText
+                .split(/\s+|\//)
+                .map((token) => token.replace(/^ال/, '').trim())
+                .filter(Boolean);
+
+            if (tokens.length > 1) {
+                return tokens.slice(0, 6).map((token) => token[0]).join('');
+            }
+
+            return tokens[0].slice(0, 6);
+        }
+
         async function renderSifatLegend() {
             const sifatTableBody = document.getElementById('sifat-legend-body');
             try {
@@ -180,14 +205,15 @@ const oppositeName = oppositeSifat ? oppositeSifat.arabic_name : '';
                         const sifatMeta = sifatKey ? sifatLookup[sifatKey] : null;
                         const sifatName = sifatMeta?.arabic_name || sifatKey || '';
                         const sifatClass = sifatMeta?.css_class || '';
+                        const sifatAcronym = toArabicAcronym(sifatName);
 
-                        return `<td class="sifat-cell"><span class="sifat-name ${sifatClass}">${sifatName}</span></td>`;
+                        return `<td class="p-0 sifat-cell"><span class="sifat-name ${sifatClass}" title="${sifatName}" aria-label="${sifatName}"><span class="sifat-full">${sifatName}</span><span class="sifat-acronym" aria-hidden="true">${sifatAcronym}</span></span></td>`;
                         }).join('');
 
                         return `
                         <tr>
                             <td class="fs-3">${letter.character}</td>
-                            <td class="amiri-quran-regular">${letter.arabic_name}</td>
+                            <td class="only-wide amiri-quran-regular">${letter.arabic_name}</td>
                             ${sifatCells}
                         </tr>
                     `;

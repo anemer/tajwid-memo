@@ -83,6 +83,26 @@
   border: 2px solid #000000;
 }
 
+.sifat-header {
+  padding: 5px 15px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 1.2em;
+  width: 200px;
+  line-height: 1.1;
+}
+
+.sifat-header-1 {
+  background-color: #e09f9f;
+}
+.sifat-header-2 {
+  background-color: #7a94ce;
+}
+
+.only-wide {
+  display: table-cell;
+}
+
 .sifat-name {
   display: block;
   padding: 5px 15px;
@@ -90,6 +110,73 @@
   font-weight: bold;
   min-width: 40px;
   margin: 0;
+}
+
+.sifat-full {
+  display: inline;
+}
+
+.sifat-acronym {
+  display: none;
+}
+
+td,
+th {
+  padding: 0px;
+  margin: 0;
+}
+
+@media (max-width: 600px) {
+  .only-wide {
+    display: none;
+  }
+
+  .sifat-name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.9em;
+    padding: 1px 2px;
+    width: 100%;
+    min-width: 0;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .sifat-header {
+    font-size: 0.9em;
+    padding: 0px;
+    transform: rotate(-90deg);
+    line-height: 0.5;
+    white-space: normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+  }
+
+  .sifat-header-text {
+    display: block;
+    line-height: 0.9;
+    padding: 0px;
+    margin: 0;
+    text-align: center;
+  }
+
+  .sifat-full {
+    display: none;
+  }
+
+  .sifat-acronym {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
 }
 
 .sifat-legend {
