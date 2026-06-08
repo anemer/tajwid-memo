@@ -1,0 +1,541 @@
+{
+    "letters": {
+        "alif": {
+            "character": "ا",
+            "arabic_name": "الف",
+            "english_name": "Alif",
+            "makhraj": "",
+            "sifat": [
+                "1b-jahr",
+                "2c-rakhwah",
+                "3b-istifal",
+                "4b-infitah",
+                "5b-ismat"
+            ]
+        },
+        "ba": {
+            "character": "ب",
+            "arabic_name": "باء",
+            "english_name": "Ba",
+            "makhraj": "",
+            "sifat": [
+                "1b-jahr",
+                "2a-shiddah",
+                "3b-istifal",
+                "4b-infitah",
+                "5a-idhlaq",
+                "12-qalqalah"
+            ]
+        },
+        "ta": {
+            "character": "ت",
+            "arabic_name": "تاء",
+            "english_name": "Ta",
+            "makhraj": "",
+            "sifat": [
+                "1a-al-hams",
+                "2a-shiddah",
+                "3b-istifal",
+                "4b-infitah",
+                "5b-ismat"
+            ]
+        },
+        "tha": {
+            "character": "ث",
+            "arabic_name": "ثاء",
+            "english_name": "Tha",
+            "makhraj": "",
+            "sifat": [
+                "1a-al-hams",
+                "2c-rakhwah",
+                "3b-istifal",
+                "4b-infitah",
+                "5b-ismat"
+            ]
+        },
+        "jim": {
+            "character": "ج",
+            "arabic_name": "جيم",
+            "english_name": "Jim",
+            "makhraj": "",
+            "sifat": [
+                "1b-jahr",
+                "2a-shiddah",
+                "3b-istifal",
+                "4b-infitah",
+                "5b-ismat",
+                "12-qalqalah"
+            ]
+        },
+        "ha": {
+            "character": "ح",
+            "arabic_name": "حاء",
+            "english_name": "Ha",
+            "makhraj": "",
+            "sifat": [
+                "1a-al-hams",
+                "2c-rakhwah",
+                "3b-istifal",
+                "4b-infitah",
+                "5b-ismat"
+            ]
+        },
+        "kha": {
+            "character": "خ",
+            "arabic_name": "خاء",
+            "english_name": "Kha",
+            "makhraj": "",
+            "sifat": [
+                "1a-al-hams",
+                "2c-rakhwah",
+                "3a-istila",
+                "4b-infitah",
+                "5b-ismat"
+            ]
+        },
+        "dal": {
+            "character": "د",
+            "arabic_name": "دال",
+            "english_name": "Dal",
+            "makhraj": "",
+            "sifat": [
+                "1b-jahr",
+                "2c-rakhwah",
+                "3b-istifal",
+                "4b-infitah",
+                "5b-ismat",
+                "12-qalqalah"
+            ]
+        },
+        "dhal": {
+            "character": "ذ",
+            "arabic_name": "ذال",
+            "english_name": "Dhal",
+            "makhraj": "",
+            "sifat": [
+                "1b-jahr",
+                "2a-shiddah",
+                "3b-istifal",
+                "4b-infitah",
+                "5b-ismat"
+            ]
+        },
+        "ra": {
+            "character": "ر",
+            "arabic_name": "راء",
+            "english_name": "Ra",
+            "makhraj": "",
+            "sifat": [
+                "1b-jahr",
+                "2b-tawassut",
+                "3b-istifal",
+                "4b-infitah",
+                "5a-idhlaq",
+                "16-takrir",
+                "17-inhiraf"
+            ]
+        },
+        "zay": {
+            "character": "ز",
+            "arabic_name": "زاي",
+            "english_name": "Zay",
+            "makhraj": "",
+            "sifat": [
+                "1b-jahr",
+                "2c-rakhwah",
+                "3b-istifal",
+                "4b-infitah",
+                "5b-ismat",
+                "11-safir"
+            ]
+        },
+        "sin": {
+            "character": "س",
+            "arabic_name": "سين",
+            "english_name": "Sin",
+            "makhraj": "",
+            "sifat": [
+                "1a-al-hams",
+                "2c-rakhwah",
+                "3b-istifal",
+                "4b-infitah",
+                "5b-ismat",
+                "11-safir"
+            ]
+        },
+        "shin": {
+            "character": "ش",
+            "arabic_name": "شين",
+            "english_name": "Shin",
+            "makhraj": "",
+            "sifat": [
+                "1a-al-hams",
+                "2c-rakhwah",
+                "3b-istifal",
+                "4b-infitah",
+                "5b-ismat",
+                "13-tafashi"
+            ]
+        },
+        "sad": {
+            "character": "ص",
+            "arabic_name": "صاد",
+            "english_name": "Sad",
+            "makhraj": "",
+            "sifat": [
+                "1a-al-hams",
+                "2c-rakhwah",
+                "3a-istila",
+                "4a-itbaq",
+                "5b-ismat",
+                "11-safir"
+            ]
+        },
+        "dad": {
+            "character": "ض",
+            "arabic_name": "ضاد",
+            "english_name": "Dad",
+            "makhraj": "",
+            "sifat": [
+                "1b-jahr",
+                "2c-rakhwah",
+                "3a-istila",
+                "4a-itbaq",
+                "5b-ismat",
+                "14-istitalah"
+            ]
+        },
+        "taa": {
+            "character": "ط",
+            "arabic_name": "طاء",
+            "english_name": "Taa",
+            "makhraj": "",
+            "sifat": [
+                "1b-jahr",
+                "2a-shiddah",
+                "3a-istila",
+                "4a-itbaq",
+                "5b-ismat",
+                "12-qalqalah"
+            ]
+        },
+        "dha": {
+            "character": "ظ",
+            "arabic_name": "ظاء",
+            "english_name": "Dha",
+            "makhraj": "",
+            "sifat": [
+                "1b-jahr",
+                "2c-rakhwah",
+                "3a-istila",
+                "4a-itbaq",
+                "5b-ismat"
+            ]
+        },
+        "ain": {
+            "character": "ع",
+            "arabic_name": "عين",
+            "english_name": "Ain",
+            "makhraj": "",
+            "sifat": [
+                "1b-jahr",
+                "2b-tawassut",
+                "3b-istifal",
+                "4b-infitah",
+                "5b-ismat"
+            ]
+        },
+        "ghain": {
+            "character": "غ",
+            "arabic_name": "غين",
+            "english_name": "Ghain",
+            "makhraj": "",
+            "sifat": [
+                "1b-jahr",
+                "2c-rakhwah",
+                "3a-istila",
+                "4b-infitah",
+                "5b-ismat"
+            ]
+        },
+        "fa": {
+            "character": "ف",
+            "arabic_name": "فاء",
+            "english_name": "Fa",
+            "makhraj": "",
+            "sifat": [
+                "1a-al-hams",
+                "2c-rakhwah",
+                "3b-istifal",
+                "4b-infitah",
+                "5a-idhlaq"
+            ]
+        },
+        "qaf": {
+            "character": "ق",
+            "arabic_name": "قاف",
+            "english_name": "Qaf",
+            "makhraj": "",
+            "sifat": [
+                "1b-jahr",
+                "2a-shiddah",
+                "3a-istila",
+                "4b-infitah",
+                "5b-ismat",
+                "12-qalqalah"
+            ]
+        },
+        "kaf": {
+            "character": "ك",
+            "arabic_name": "كاف",
+            "english_name": "Kaf",
+            "makhraj": "",
+            "sifat": [
+                "1a-al-hams",
+                "2a-shiddah",
+                "3b-istifal",
+                "4b-infitah",
+                "5b-ismat"
+            ]
+        },
+        "lam": {
+            "character": "ل",
+            "arabic_name": "لام",
+            "english_name": "Lam",
+            "makhraj": "",
+            "sifat": [
+                "1b-jahr",
+                "2b-tawassut",
+                "3b-istifal",
+                "4b-infitah",
+                "5a-idhlaq",
+                "17-inhiraf"
+            ]
+        },
+        "mim": {
+            "character": "م",
+            "arabic_name": "ميم",
+            "english_name": "Mim",
+            "makhraj": "",
+            "sifat": [
+                "1b-jahr",
+                "2b-tawassut",
+                "3b-istifal",
+                "4b-infitah",
+                "5a-idhlaq"
+            ]
+        },
+        "nun": {
+            "character": "ن",
+            "arabic_name": "نون",
+            "english_name": "Nun",
+            "makhraj": "",
+            "sifat": [
+                "1b-jahr",
+                "2b-tawassut",
+                "3b-istifal",
+                "4b-infitah",
+                "5a-idhlaq"
+            ]
+        },
+        "haa": {
+            "character": "ه",
+            "arabic_name": "هاء",
+            "english_name": "Haa",
+            "makhraj": "",
+            "sifat": [
+                "1a-al-hams",
+                "2c-rakhwah",
+                "3b-istifal",
+                "4b-infitah",
+                "5b-ismat"
+            ]
+        },
+        "waw": {
+            "character": "و",
+            "arabic_name": "واو",
+            "english_name": "Waw",
+            "makhraj": "",
+            "sifat": [
+                "1b-jahr",
+                "2c-rakhwah",
+                "3b-istifal",
+                "4b-infitah",
+                "5b-ismat",
+                "15-leen"
+            ]
+        },
+        "ya": {
+            "character": "ي",
+            "arabic_name": "ياء",
+            "english_name": "Ya",
+            "makhraj": "",
+            "sifat": [
+                "1b-jahr",
+                "2c-rakhwah",
+                "3b-istifal",
+                "4b-infitah",
+                "5b-ismat",
+                "15-leen"
+            ]
+        },
+        "hamzah": {
+            "character": "ء",
+            "arabic_name": "همزة",
+            "english_name": "Hamzah",
+            "makhraj": "",
+            "sifat": [
+                "1b-jahr",
+                "2a-shiddah",
+                "3b-istifal",
+                "4b-infitah",
+                "5b-ismat"
+            ]
+        }
+    },
+    "sifat": {
+        "1a-al-hams": {
+            "arabic_name": "الهَمْس",
+            "english_name": "Al-Hams",
+            "description": "",
+            "opposite": "1b-jahr",
+            "css_class": "al-hams",
+            "letters_memo": "فحثه شخص سكت"
+        },
+        "1b-jahr": {
+            "arabic_name": "الجهر",
+            "english_name": "Al-Jahr",
+            "description": "",
+            "opposite": "1a-al-hams",
+            "css_class": "al-jahr",
+            "letters_memo": "",
+            "letters": "19 حرفًا غير حروف الهَمْس"
+        },
+        "2a-shiddah": {
+            "arabic_name": "الشدة",
+            "english_name": "Al-Shiddah",
+            "description": "",
+            "opposite": "2c-rakhwah",
+            "css_class": "al-shiddah",
+            "letters_memo": "أجَدّ قط بكت"
+        },
+        "2b-tawassut": {
+            "arabic_name": "التوسط",
+            "english_name": "Al-Tawassut",
+            "description": "",
+            "css_class": "at-tawassut",
+            "letters_memo": "لن عمر",
+            "middle": [
+                "2a-shiddah",
+                "2c-rakhwah"
+            ]
+        },
+        "2c-rakhwah": {
+            "arabic_name": "الرخوة",
+            "english_name": "Al-Rakhwah",
+            "description": "",
+            "opposite": "2a-shiddah",
+            "css_class": "al-rakhwah",
+            "letters_memo": "",
+
+            "letters": "16 حرفًا غير حروف الرخوة و حروف التوسط"
+        },
+        "3a-istila": {
+            "arabic_name": "الاستعلاء",
+            "english_name": "Al-Istila",
+            "description": "",
+            "opposite": "3b-istifal",
+            "css_class": "al-istila",
+            "letters_memo": "خص ضغط قظ"
+        },
+        "3b-istifal": {
+            "arabic_name": "الاستفال",
+            "english_name": "Al-Istifal",
+            "description": "",
+            "opposite": "3a-istila",
+            "css_class": "al-istifal",
+            "letters": "غير حروف الاستعلاء"
+        },
+        "4a-itbaq": {
+            "arabic_name": "الإطباق",
+            "english_name": "Al-Itbaq",
+            "description": "",
+            "opposite": "4b-infitah",
+            "css_class": "al-itbaq",
+            "letters_memo": "ص ض ط ظ"
+        },
+        "4b-infitah": {
+            "arabic_name": "الانفتاح",
+            "english_name": "Al-Infitah",
+            "description": "",
+            "opposite": "4a-itbaq",
+            "css_class": "al-infitah",
+            "letters": "غير حروف الإطباق"
+        },
+        "5a-idhlaq": {
+            "arabic_name": "الإذلاق",
+            "english_name": "Al-Idhlaq",
+            "description": "",
+            "opposite": "5b-ismat",
+            "letters_memo": "فر من لب",
+            "css_class": "al-idhlaq"
+        },
+        "5b-ismat": {
+            "arabic_name": "الإصمات",
+            "english_name": "Al-Ismat",
+            "description": "",
+            "opposite": "5a-idhlaq",
+            "css_class": "al-ismat",
+            "letters": "غير حروف الإذلاق"
+        },
+        "11-safir": {
+            "arabic_name": "الصفير",
+            "english_name": "As-Safir",
+            "description": "",
+            "letters_memo": "ز س ص",
+            "css_class": "as-safir"
+        },
+        "12-qalqalah": {
+            "arabic_name": "القلقلة",
+            "english_name": "Al-Qalqalah",
+            "description": "",
+            "letters_memo": "قُطْبُ جَدّ",
+            "css_class": "al-qalqalah"
+        },
+        "13-tafashi": {
+            "arabic_name": "التفشي",
+            "english_name": "At-Tafashi",
+            "description": "",
+            "letters": "الشين",
+            "css_class": "at-tafashi"
+        },
+        "14-istitalah": {
+            "arabic_name": "الاستطالة",
+            "english_name": "Al-Istitalah",
+            "description": "",
+            "letters": "الضاد",
+            "css_class": "al-istitalah"
+        },
+        "15-leen": {
+            "arabic_name": "اللين",
+            "english_name": "Al-Leen",
+            "description": "صفة أطلقت على الواو والياء الساكنتين المفتوح ماقبلهما، بسبب سهولة جريهما في المخرج",
+            "letters": "الواو والياء الساكنتين المفتوح ماقبلهما",
+            "css_class": "al-leen"
+        },
+        "16-takrir": {
+            "arabic_name": "التكرير",
+            "english_name": "At-Takrir",
+            "description": "",
+            "letters": "الراء",
+            "css_class": "at-takrir"
+        },
+        "17-inhiraf": {
+            "arabic_name": "الانحراف",
+            "english_name": "Al-Inhiraf",
+            "description": "هو ميل صوت الحرف لعدم كمال جريانه بسبب اعتراض اللسان طريقه.",
+            "letters": "اللام والراء",
+            "css_class": "al-inhiraf"
+        }
+    }
+}

@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>جدول الحروف والصفات</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amiri+Quran&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="mb-4">الحروف العربية والصفات</h1>
+                <div class="table-responsive">
+                <table class="table table-striped table-hover align-middle text-center">
+                    <thead class="table-dark">
+                        <tr>
+                            <th><button type="button" class="sort-button" data-sort-column="0">حرف</button></th>
+                            <th><button type="button" class="sort-button" data-sort-column="1">الاسم</button></th>
+                            <th><button type="button" class="sort-button" data-sort-column="2">الجهر / الهمس</button></th>
+                            <th><button type="button" class="sort-button" data-sort-column="3">الشدة / الرخاوة</button></th>
+                            <th><button type="button" class="sort-button" data-sort-column="4">الاستعلاء / الاستفال</button></th>
+                            <th><button type="button" class="sort-button" data-sort-column="5">الإطباق / الانفتاح</button></th>
+                            <th><button type="button" class="sort-button" data-sort-column="6">الإذلاق / الإصمات</button></th>
+                            <th><button type="button" class="sort-button" data-sort-column="7">الصفة 6</button></th>
+                            <th><button type="button" class="sort-button" data-sort-column="8">الصفة 7</button></th>
+                        </tr>
+                    </thead>
+                    <tbody id="letters-table-body">
+                    </tbody>
+                </table>
+            </div>
+        </div>
+                <div class="row">
+            <div class="col-md-12">
+                <h1 class="mb-4">الصفات</h1>
+                <div class="table-responsive">
+                <table class="table table-striped table-hover align-middle text-center">
+                    <thead class="table-dark">
+                        <tr>
+                            <th><button type="button" class="sort-button" data-sort-column="0">الاسم</button></th>
+                            <th><button type="button" class="sort-button" data-sort-column="1">عكسه</button></th>
+                            <th><button type="button" class="sort-button" data-sort-column="2">شرح</button></th>
+                            <th><button type="button" class="sort-button" data-sort-column="3">حروفه</button></th>
+                           </tr>
+                    </thead>
+                    <tbody id="sifat-legend-body">
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        const collator = new Intl.Collator('ar', { sensitivity: 'base' });
+        const sortState = {
+            column: null,
+            direction: 'asc'
+        };
+
+        function getSortValue(letter, columnIndex, sifatLookup) {
+            if (columnIndex === 0) {
+                return letter.character || '';
+            }
+
+            if (columnIndex === 1) {
+                return letter.arabic_name || '';
+            }
+
+            const sifatKey = letter.sifat[columnIndex - 2];
+            return sifatLookup[sifatKey]?.arabic_name || '';
+        }
+
+        function sortLetters(letters, sifatLookup) {
+            if (sortState.column === null) {
+                return letters;
+            }
+
+            return [...letters].sort((left, right) => {
+                const leftValue = getSortValue(left, sortState.column, sifatLookup);
+                const rightValue = getSortValue(right, sortState.column, sifatLookup);
+                const comparison = collator.compare(leftValue, rightValue);
+
+                return sortState.direction === 'asc' ? comparison : -comparison;
+            });
+        }
+
+        function updateSortButtons() {
+            document.querySelectorAll('.sort-button').forEach((button) => {
+                const buttonColumn = Number(button.dataset.sortColumn);
+                const isActive = buttonColumn === sortState.column;
+                const indicator = isActive ? (sortState.direction === 'asc' ? ' ▲' : ' ▼') : '';
+
+                button.classList.toggle('active', isActive);
+                button.setAttribute('aria-sort', isActive ? sortState.direction : 'none');
+                button.textContent = button.dataset.label + indicator;
+            });
+        }
+
+        function attachSorting(renderTable) {
+            document.querySelectorAll('.sort-button').forEach((button) => {
+                button.dataset.label = button.textContent.trim();
+                button.addEventListener('click', () => {
+                    const clickedColumn = Number(button.dataset.sortColumn);
+
+                    if (sortState.column === clickedColumn) {
+                        sortState.direction = sortState.direction === 'asc' ? 'desc' : 'asc';
+                    } else {
+                        sortState.column = clickedColumn;
+                        sortState.direction = 'asc';
+                    }
+
+                    renderTable();
+                });
+            });
+
+            updateSortButtons();
+        }
+
+        async function renderSifatLegend() {
+            const sifatTableBody = document.getElementById('sifat-legend-body');
+            try {
+                const response = await fetch('data.json');
+                const data = await response.json();
+                const sifatEntries = Object.entries(data.sifat || {});
+
+                sifatTableBody.innerHTML = sifatEntries.map(([key, sifat]) => {
+const oppositeSifat = sifat.opposite ? data.sifat[sifat.opposite] : null;
+const oppositeName = oppositeSifat ? oppositeSifat.arabic_name : '';
+                const oppositeClass = oppositeSifat ? oppositeSifat.css_class : '';
+                    const cells = [
+                        `<td><span class="${sifat.css_class} sifat-legend">${sifat.arabic_name}</span></td>`
+                    ]
+                    
+                    if (sifat.opposite) {
+                        cells.push(`<td><span class="${oppositeClass} opposite-sifat">${oppositeName}</span></td>`);
+                    } else {
+                        cells.push('<td></td>');
+                    }
+                    cells.push(`<td>${sifat.description || ''}</td>`);
+                    if (sifat.letters_memo) {
+                        cells.push(`<td><span class="amiri-quran-regular">${sifat.letters_memo}</span></td>`);
+                    } else {
+                    cells.push(`<td class="">${sifat.letters || ''}</td>`);
+                    }
+                    return ['<tr>', ...cells, '</tr>'].join('');
+                }).join('');
+            } catch (error) {
+                sifatTableBody.innerHTML = `
+                    <tr>
+                        <td colspan="2" class="text-danger">Failed to load data.json</td>
+                    </tr>
+                `;
+                console.error(error);
+            }
+            
+        }
+
+
+        async function renderLettersTable() {
+            const tableBody = document.getElementById('letters-table-body');
+
+            try {
+                const response = await fetch('data.json');
+                const data = await response.json();
+                const letters = Object.values(data.letters || {});
+                const sifatLookup = data.sifat || {};
+
+                const renderTable = () => {
+                    const sortedLetters = sortLetters(letters, sifatLookup);
+
+                    tableBody.innerHTML = sortedLetters.map((letter) => {
+                        const sifatCells = Array.from({ length: 7 }, (_, index) => {
+                        const sifatKey = letter.sifat[index];
+                        const sifatMeta = sifatKey ? sifatLookup[sifatKey] : null;
+                        const sifatName = sifatMeta?.arabic_name || sifatKey || '';
+                        const sifatClass = sifatMeta?.css_class || '';
+
+                        return `<td class="sifat-cell"><span class="sifat-name ${sifatClass}">${sifatName}</span></td>`;
+                        }).join('');
+
+                        return `
+                        <tr>
+                            <td class="fs-3">${letter.character}</td>
+                            <td class="amiri-quran-regular">${letter.arabic_name}</td>
+                            ${sifatCells}
+                        </tr>
+                    `;
+                    }).join('');
+
+                    updateSortButtons();
+                };
+
+                attachSorting(renderTable);
+                renderTable();
+            } catch (error) {
+                tableBody.innerHTML = `
+                    <tr>
+                        <td colspan="9" class="text-danger">Failed to load data.json</td>
+                    </tr>
+                `;
+                console.error(error);
+            }
+        }
+
+        renderLettersTable();
+
+        renderSifatLegend();
+    </script>
+</body>
+</html>

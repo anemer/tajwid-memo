@@ -1,0 +1,165 @@
+.al-hams {
+  background-color: #fe6a6a8f;
+  border: 1px solid #c61313;
+  color: #3e0101;
+  text-align: left;
+}
+.al-jahr {
+  background-color: #e09f9f;
+  border: 2px solid #5e0202;
+  text-align: right;
+}
+
+.al-shiddah {
+  background-color: #7a94ce;
+  border: 2px solid #0224ae;
+  text-align: right;
+}
+.at-tawassut {
+  background-color: #a1b2ff;
+  border: 1px dashed #173dd6;
+}
+.al-rakhwah {
+  background-color: #cfdafb;
+  border: 1px solid #173dd6;
+  text-align: left;
+}
+.al-istifal {
+  background-color: #e4fbce;
+  border: 1px solid #0f610e;
+  color: #90ce8f;
+  text-align: left;
+}
+.al-istila {
+  background-color: #4a874a8e;
+  border: 2px solid #0f610e;
+  text-align: right;
+}
+
+.al-itbaq {
+  background-color: #42951f98;
+  border: 2px solid #0f610e;
+  text-align: right;
+}
+.al-infitah {
+  background-color: #e6f3e1;
+  color: #90ce8f;
+  text-align: left;
+}
+
+.al-ismat {
+  background-color: #ffffff;
+  border: 1px solid #000000;
+  text-align: left;
+}
+.al-idhlaq {
+  background-color: #bcbcbc;
+  border: 2px solid #242424;
+  text-align: right;
+}
+
+.al-qalqalah {
+  background-color: #d77f7f;
+  border: 2px solid #000000;
+}
+
+.as-safir {
+  background-color: #ff99f7af;
+  border: 1px solid #000000;
+}
+
+.al-leen {
+  background-color: #cfdafb;
+  border: 2px solid #000000;
+}
+
+.al-istitalah {
+  background-color: #a1b2ff;
+  border: 2px solid #000000;
+}
+
+.at-tafashi {
+  background-color: #e9e67f;
+  border: 2px solid #000000;
+}
+
+.sifat-name {
+  display: block;
+  padding: 5px 15px;
+  border-radius: 5px;
+  font-weight: bold;
+  min-width: 40px;
+  margin: 0;
+}
+
+.sifat-legend {
+  display: block;
+  padding: 5px 15px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 1.2em;
+  width: 200px;
+  text-align: center;
+  align-self: center;
+}
+
+.opposite-sifat {
+  display: block;
+  padding: 5px 15px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 1em;
+  text-align: right;
+  color: #555;
+  width: 200px;
+}
+
+.opposite-cell {
+  padding: 0px;
+  margin: 0;
+  background-color: #000000;
+}
+
+.sifat-name:hover {
+  color: #000000;
+}
+
+.sifat-cell {
+  padding: 0px;
+  margin: 0;
+}
+
+.sifat-cell:hover {
+  background-color: #fefca6d7;
+}
+
+.sort-button {
+  width: 100%;
+  border: 0;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  font-weight: 700;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.sort-button.active {
+  text-decoration: underline;
+}
+
+.sort-button:focus-visible {
+  outline: 2px solid #ffffff;
+  outline-offset: 2px;
+}
+
+.hoverable {
+  cursor: pointer;
+}
+
+.amiri-quran-regular {
+  font-family: "Amiri Quran", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 28px;
+}
