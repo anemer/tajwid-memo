@@ -63,37 +63,37 @@
                       الاسم
                     </button>
                   </th>
-                  <th id="sifat-header-1" class="pb-2 m-0">
-                    <div  class="sort-button sifat-header" data-sort-column="2">
+                  <th id="sifat-header-1" class="sifat-header pb-2 m-0">
+                    <div  class="sort-button" data-sort-column="2">
                      <span class="sifat-header-text ">
                         الجهر او الهمس
                     </span>
                     </div>
                   </th>
-                  <th id="sifat-header-2" class="pb-2 m-0">
-                    <div class="sort-button sifat-header" data-sort-column="3">
+                  <th id="sifat-header-2" class="sifat-header pb-2 m-0">
+                    <div class="sort-button" data-sort-column="3">
                       <span class="sifat-header-text">الشدة / الرخاوة</span>
                     </div>
                   </th>
-                  <th id="sifat-header-3" class="pb-2 m-0">
-                    <div class="sort-button sifat-header" data-sort-column="4">
+                  <th id="sifat-header-3" class="sifat-header pb-2 m-0">
+                    <div class="sort-button" data-sort-column="4">
                       <span class="sifat-header-text"
                         >الاستعلاء / الاستفال</span
                       >
                     </div>
                   </th>
-                  <th id="sifat-header-4" class="pb-2 m-0">
-                    <div class="sort-button sifat-header" data-sort-column="5">
+                  <th id="sifat-header-4" class="sifat-header pb-2 m-0">
+                    <div class="sort-button" data-sort-column="5">
                       <span class="sifat-header-text">الإطباق / الانفتاح</span>
                     </div>
                   </th>
-                  <th id="sifat-header-5" class="pb-2 m-0">
-                    <div class="sort-button sifat-header" data-sort-column="6">
+                  <th id="sifat-header-5" class="sifat-header pb-2 m-0">
+                    <div class="sort-button" data-sort-column="6">
                       <span class="sifat-header-text">الإذلاق / الإصمات</span>
                     </div>
                   </th>
-                  <th id="sifat-header-6" class="pb-2 m-0">
-                    <div class="sort-button sifat-header" data-sort-column="7">
+                  <th id="sifat-header-6" class="sifat-header pb-2 m-0">
+                    <div class="sort-button" data-sort-column="7">
                       <span class="sifat-header-text">صفات اخرى</span>
                     </div>
                   </th>
@@ -228,8 +228,7 @@
           const data = await response.json();
           const sifatEntries = Object.entries(data.sifat || {});
           sifatTableBody.innerHTML = sifatEntries
-            .map(([key, sifat]) => {
-              console.log("Rendering sifat:", key, sifat);
+            .map(([key, sifat]) => { 
               const arabicName = sifat.arabic_name || "";
               const sifatAcronym = toArabicAcronym(arabicName);
               const sifatClass = sifat.css_class || "";
@@ -254,10 +253,10 @@
               const cells = [];
               cells.push([
                 "في  جدول الحروف",
-                `<span class="sifat-name ${sifatClass}" title="${arabicName}" aria-label="${arabicName}">
+                `<span class="sifat-name align-right ${sifatClass}" title="${arabicName}" aria-label="${arabicName}">
                         <span class="sifat-full">${arabicName}</span>
                         <span class="sifat-acronym" aria-hidden="true">${sifatAcronym}</span>
-                        </span>`,
+                </span>`,
 
                 
               ]);
