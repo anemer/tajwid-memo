@@ -218,7 +218,7 @@
       }
 
       function toRow(content) {
-        return `<tr><td class="legend-start">${content[0]}</td><td class="legend-end">${content[1]}</td></tr>`;
+        return `<tr><td class="legend-start"> ${content[0]} </td><td class="legend-end">${content[1]}</td></tr>`;
       }
 
       async function renderSifatLegend() {
@@ -242,6 +242,14 @@
               const oppositeClass = oppositeSifat
                 ? oppositeSifat.css_class
                 : "";
+                const oppositeLink = oppositeSifat
+                ? `<a href="#sifat-${sifat.opposite}" class="opposite-sifat-link" aria-label="شرح صفة ${oppositeName}">
+                    <span class="opposite-sifat" title="${oppositeName}" aria-label="${oppositeName}">
+                        <span class="sifat-full">${oppositeName}</span>
+                        <span class="sifat-acronym" aria-hidden="true">${toArabicAcronym(oppositeName)}</span>
+                    </span>
+                    </a>`
+                : "";
               const title = `<h2 id="sifat-${key}">صفة ${arabicName}</h2>`;
               const cells = [];
               cells.push([
@@ -257,7 +265,7 @@
               if (sifat.opposite) {
                 cells.push([
                   "عكسه",
-                  `<span class="opposite-sifat">${oppositeName}</span>`,
+                  oppositeLink,
                 ]);
               }
               cells.push([
@@ -267,10 +275,13 @@
 
               let letters = ""; 
                 if (sifat.letters_memo) {
-                    letters += `<span class="sepia amiri-quran-regular">${sifat.letters_memo}</span>`;    
+                    letters += `
+                    <div class="sepia">
+                        <span class="letters-memo amiri-quran-regular">${sifat.letters_memo}</span>
+                    </div>`;    
                 }
                 if (sifat.letters) {
-                    letters += `<p class="">${sifat.letters}</p>`;
+                    letters += `<p class="sepia">${sifat.letters}</p>`;
                 }
               cells.push([`<h4 class="">حروفه</h4>`, letters]);
 
