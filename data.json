@@ -131,8 +131,8 @@
                 "3b-istifal",
                 "4b-infitah",
                 "5a-idhlaq",
-                "16-takrir",
-                "17-inhiraf"
+                "16-inhiraf",
+                "17-takrir"
             ]
         },
         "zay": {
@@ -309,7 +309,7 @@
                 "3b-istifal",
                 "4b-infitah",
                 "5a-idhlaq",
-                "17-inhiraf"
+                "16-inhiraf"
             ]
         },
         "mim": {
@@ -400,7 +400,8 @@
             "description": "جريان النفس عند النطق بالحرف لضعف الاعتماد على المخرج.",
             "opposite": "1b-jahr",
             "css_class": "al-hams",
-            "letters_memo": "فحثه شخص سكت"
+            "letters_memo": "فحثه شخص سكت",
+            "arabic_acronym": "هَمْس"
         },
         "1b-jahr": {
             "arabic_name": "الجهر",
@@ -409,7 +410,8 @@
             "opposite": "1a-al-hams",
             "css_class": "al-jahr",
             "letters_memo": "",
-            "letters": "19 حرفًا غير حروف الهَمْس"
+            "letters": "19 حرفًا غير حروف الهَمْس",
+            "arabic_acronym": "جهر"
         },
         "2a-shiddah": {
             "arabic_name": "الشدة",
@@ -417,7 +419,8 @@
             "description": "انحباس جريان الصوت عند النطق بالحرف لكمال الاعتماد على المخرج.",
             "opposite": "2c-rakhwah",
             "css_class": "al-shiddah",
-            "letters_memo": "أجَدّ قط بكت"
+            "letters_memo": "أجَدّ قط بكت",
+            "arabic_acronym": "شدة"
         },
         "2b-tawassut": {
             "arabic_name": "التوسط",
@@ -425,6 +428,7 @@
             "description": "اعتدال الصوت عند النطق بالحرف، فلا ينحبس انحباس الشدة ولا يجري جريان الرخاوة.",
             "css_class": "at-tawassut",
             "letters_memo": "لن عمر",
+            "arabic_acronym": "وسط",
             "middle": [
                 "2a-shiddah",
                 "2c-rakhwah"
@@ -437,7 +441,8 @@
             "opposite": "2a-shiddah",
             "css_class": "al-rakhwah",
             "letters_memo": "",
-            "letters": "16 حرفًا غير حروف الرخوة و حروف التوسط"
+            "letters": "16 حرفًا غير حروف الرخوة و حروف التوسط",
+            "arabic_acronym": "رخو"
         },
         "3a-istila": {
             "arabic_name": "الاستعلاء",
@@ -445,7 +450,8 @@
             "description": "ارتفاع أقصى اللسان إلى الحنك الأعلى عند النطق بالحرف فيتفخم الصوت.",
             "opposite": "3b-istifal",
             "css_class": "al-istila",
-            "letters_memo": "خص ضغط قظ"
+            "letters_memo": "خص ضغط قظ",
+            "arabic_acronym": "اعلا"
         },
         "3b-istifal": {
             "arabic_name": "الاستفال",
@@ -453,7 +459,8 @@
             "description": "انخفاض أقصى اللسان عن الحنك الأعلى عند النطق بالحرف فيرق الصوت.",
             "opposite": "3a-istila",
             "css_class": "al-istifal",
-            "letters": "غير حروف الاستعلاء"
+            "letters": "غير حروف الاستعلاء",
+            "arabic_acronym": "اسفل"
         },
         "4a-itbaq": {
             "arabic_name": "الإطباق",
@@ -461,7 +468,8 @@
             "description": "التصاق معظم اللسان بالحنك الأعلى عند النطق بالحرف مع انحصار الصوت بينهما.",
             "opposite": "4b-infitah",
             "css_class": "al-itbaq",
-            "letters_memo": "ص ض ط ظ"
+            "letters_memo": "ص ض ط ظ",
+            "arabic_acronym": "طبق"
         },
         "4b-infitah": {
             "arabic_name": "الانفتاح",
@@ -469,7 +477,8 @@
             "description": "افتراق اللسان عن الحنك الأعلى عند النطق بالحرف بحيث لا ينحصر الصوت بينهما.",
             "opposite": "4a-itbaq",
             "css_class": "al-infitah",
-            "letters": "غير حروف الإطباق"
+            "letters": "غير حروف الإطباق",
+            "arabic_acronym": "فتح"
         },
         "5a-idhlaq": {
             "arabic_name": "الإذلاق",
@@ -477,7 +486,8 @@
             "description": "سرعة النطق به لخروجه من ذلق (طرف) اللسان أو الشفتين.",
             "opposite": "5b-ismat",
             "letters_memo": "فِرَّ مِنْ لُبٍّ",
-            "css_class": "al-idhlaq"
+            "css_class": "al-idhlaq",
+            "arabic_acronym": "ذلق"
         },
         "5b-ismat": {
             "arabic_name": "الإصمات",
@@ -485,21 +495,24 @@
             "description": "ثقل النطق بالحرف",
             "opposite": "5a-idhlaq",
             "css_class": "al-ismat",
-            "letters": "غير حروف الإذلاق"
+            "letters": "غير حروف الإذلاق",
+            "arabic_acronym": "صمِت"
         },
         "11-safir": {
             "arabic_name": "الصفير",
             "english_name": "As-Safir",
             "description": "صوت زائد يخرج من بين الثنايا وطرف اللسان عند النطق بأحد حروفه",
             "letters_memo": "ز س ص",
-            "css_class": "as-safir"
+            "css_class": "as-safir",
+            "arabic_acronym": "صفِر"
         },
         "12-qalqalah": {
             "arabic_name": "القلقلة",
             "english_name": "Al-Qalqalah",
             "description": "إخراج الحرف المقلقل-حال سكونه-بالتباعد بين طرفي عضو النطق دون أن يصاحبه شائبة حركة من الحركات الثلاث.",
             "letters_memo": "قُطْبُ جَدّ",
-            "css_class": "al-qalqalah"
+            "css_class": "al-qalqalah",
+            "arabic_acronym": "قلقل"
         },
         "13-tafashi": {
             "arabic_name": "التفشي",
@@ -507,7 +520,8 @@
             "description": "انتشار الهواء في الفم عند النطق بحرف الشين حتى يمتد صوته.",
             "letters": "الشين",
             "letters_memo": "ش",
-            "css_class": "at-tafashi"
+            "css_class": "at-tafashi",
+            "arabic_acronym": "فشى"
         },
         "14-istitalah": {
             "arabic_name": "الاستطالة",
@@ -515,7 +529,8 @@
             "description": "امتداد الصوت من أول حافة اللسان إلى آخرها عند النطق بحرف الضاد.",
             "letters": "الضاد",
             "letters_memo": "ض",
-            "css_class": "al-istitalah"
+            "css_class": "al-istitalah",
+            "arabic_acronym": "طال"
         },
         "15-leen": {
             "arabic_name": "اللين",
@@ -523,24 +538,27 @@
             "description": "صفة أطلقت على الواو والياء الساكنتين المفتوح ماقبلهما، بسبب سهولة جريهما في المخرج",
             "letters_memo": "و ي",
             "letters": "الواو والياء الساكنتين المفتوح ماقبلهما",
-            "css_class": "al-leen"
+            "css_class": "al-leen",
+            "arabic_acronym": "لين"
         },
-        "16-takrir": {
+        "17-takrir": {
             "arabic_name": "التكرير",
             "english_name": "At-Takrir",
             "description": "ارتعاد طرف اللسان عند النطق بالراء، والمطلوب الاحتراز من تكريرها الزائد.",
             "letters": "الراء",
             "letters_memo": "ر",
-            "css_class": "at-takrir"
+            "css_class": "at-takrir",
+            "arabic_acronym": "كرر"
         },
-        "17-inhiraf": {
+        "16-inhiraf": {
             "arabic_name": "الانحراف",
             "english_name": "Al-Inhiraf",
             "description": "هو ميل صوت الحرف لعدم كمال جريانه بسبب اعتراض اللسان طريقه.",
             "letters": "اللام والراء",
                         "letters_memo": "ل ر",
 
-            "css_class": "al-inhiraf"
+            "css_class": "al-inhiraf",
+            "arabic_acronym": "حَرَف"
         }
     }
 }
