@@ -400,7 +400,7 @@
             "description": "جريان النفس عند النطق بالحرف لضعف الاعتماد على المخرج.",
             "opposite": "1b-jahr",
             "css_class": "al-hams",
-            "letters_memo": "فحثه شخص سكت",
+            "letters_memo": "فحثه&nbsp;شخص&nbsp;سكت",
             "arabic_acronym": "هَمْس"
         },
         "1b-jahr": {
@@ -419,7 +419,7 @@
             "description": "انحباس جريان الصوت عند النطق بالحرف لكمال الاعتماد على المخرج.",
             "opposite": "2c-rakhwah",
             "css_class": "al-shiddah",
-            "letters_memo": "أجَدّ قط بكت",
+            "letters_memo": "أجَدّ&nbsp;قط&nbsp;بكت",
             "arabic_acronym": "شدة"
         },
         "2b-tawassut": {
@@ -427,7 +427,7 @@
             "english_name": "Al-Tawassut",
             "description": "اعتدال الصوت عند النطق بالحرف، فلا ينحبس انحباس الشدة ولا يجري جريان الرخاوة.",
             "css_class": "at-tawassut",
-            "letters_memo": "لن عمر",
+            "letters_memo": "لن&nbsp;عمر",
             "arabic_acronym": "وسط",
             "middle": [
                 "2a-shiddah",
@@ -450,7 +450,7 @@
             "description": "ارتفاع أقصى اللسان إلى الحنك الأعلى عند النطق بالحرف فيتفخم الصوت.",
             "opposite": "3b-istifal",
             "css_class": "al-istila",
-            "letters_memo": "خص ضغط قظ",
+            "letters_memo": "خص&nbsp;ضغط&nbsp;قظ",
             "arabic_acronym": "اعلا"
         },
         "3b-istifal": {
@@ -504,15 +504,15 @@
             "description": "صوت زائد يخرج من بين الثنايا وطرف اللسان عند النطق بأحد حروفه",
             "letters_memo": "ز س ص",
             "css_class": "as-safir",
-            "arabic_acronym": "صفِر"
+            "arabic_acronym": "صفِبر"
         },
         "12-qalqalah": {
             "arabic_name": "القلقلة",
             "english_name": "Al-Qalqalah",
             "description": "إخراج الحرف المقلقل-حال سكونه-بالتباعد بين طرفي عضو النطق دون أن يصاحبه شائبة حركة من الحركات الثلاث.",
-            "letters_memo": "قُطْبُ جَدّ",
+            "letters_memo": "قُطْبُ&nbsp;جَدّ",
             "css_class": "al-qalqalah",
-            "arabic_acronym": "قلقل"
+            "arabic_acronym": "قلقلة"
         },
         "13-tafashi": {
             "arabic_name": "التفشي",
@@ -521,7 +521,7 @@
             "letters": "الشين",
             "letters_memo": "ش",
             "css_class": "at-tafashi",
-            "arabic_acronym": "فشى"
+            "arabic_acronym": "تفشى"
         },
         "14-istitalah": {
             "arabic_name": "الاستطالة",
@@ -548,7 +548,7 @@
             "letters": "الراء",
             "letters_memo": "ر",
             "css_class": "at-takrir",
-            "arabic_acronym": "كرر"
+            "arabic_acronym": "تكرير"
         },
         "16-inhiraf": {
             "arabic_name": "الانحراف",
