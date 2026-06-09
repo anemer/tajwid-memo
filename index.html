@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tajwid Memo</title>
+    <title>النوطة التفاعلية لأحكام التجويد</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -29,18 +29,20 @@
     <div class="container mt-5">
       <div class="row">
         <div class="col-md-12">
-            <h1 class="mb-4">Tajwid Memo</h1>
-        
+          <h1 class="mb-4">النوطة التفاعلية لأحكام التجويد</h1>
           <p class="lead">
-            هذا التطبيق يساعدك على حفظ صفات الحروف في القرآن الكريم من خلال جدول تفاعلي وصفحات شرح لكل صفة.
-            </p>
+            هذا التطبيق يساعدك على حفظ صفات الحروف في القرآن الكريم من خلال جدول
+            تفاعلي وصفحات شرح لكل صفة.
+          </p>
           <h2 class="mb-4">صفات الحروف</h2>
 
-            <p class="lead fs-6">
-            يمكنك فرز الحروف بناءً على أي عمود في الجدول، والضغط على اسم الصفة لقراءة شرحها وحروفها المرتبطة بها.
-            </p>
+          <p class="lead fs-6">
+            يمكنك فرز الحروف بناءً على أي عمود في الجدول، والضغط على اسم الصفة
+            لقراءة شرحها وحروفها المرتبطة بها.
+          </p>
           <div class="table-responsive">
-            <table id="letters-table"
+            <table
+              id="letters-table"
               class="table table-striped table-hover align-middle text-center"
             >
               <thead class="pb-0">
@@ -64,36 +66,34 @@
                     </button>
                   </th>
                   <th id="sifat-header-1" class="sifat-header pb-2 m-0">
-                    <div  class="sort-button" data-sort-column="2">
-                     <span class="sifat-header-text ">
-                        الجهر او الهمس
-                    </span>
+                    <div class="sort-button sifat-header-button" data-sort-column="2">
+                      <span class="sifat-header-text"> الجهر او الهمس </span>
                     </div>
                   </th>
                   <th id="sifat-header-2" class="sifat-header pb-2 m-0">
-                    <div class="sort-button" data-sort-column="3">
-                      <span class="sifat-header-text">الشدة / الرخاوة</span>
+                    <div class="sort-button sifat-header-button" data-sort-column="3">
+                      <span class="sifat-header-text">الشدة او الرخاوة</span>
                     </div>
                   </th>
                   <th id="sifat-header-3" class="sifat-header pb-2 m-0">
-                    <div class="sort-button" data-sort-column="4">
+                    <div class="sort-button sifat-header-button" data-sort-column="4">
                       <span class="sifat-header-text"
-                        >الاستعلاء / الاستفال</span
+                        >الاستعلاء او الاستفال</span
                       >
                     </div>
                   </th>
                   <th id="sifat-header-4" class="sifat-header pb-2 m-0">
-                    <div class="sort-button" data-sort-column="5">
-                      <span class="sifat-header-text">الإطباق / الانفتاح</span>
+                    <div class="sort-button sifat-header-button" data-sort-column="5">
+                      <span class="sifat-header-text">الإطباق او الانفتاح</span>
                     </div>
                   </th>
                   <th id="sifat-header-5" class="sifat-header pb-2 m-0">
-                    <div class="sort-button" data-sort-column="6">
-                      <span class="sifat-header-text">الإذلاق / الإصمات</span>
+                    <div class="sort-button sifat-header-button" data-sort-column="6">
+                      <span class="sifat-header-text">الإذلاق او الإصمات</span>
                     </div>
                   </th>
                   <th id="sifat-header-6" class="sifat-header pb-2 m-0">
-                    <div class="sort-button" data-sort-column="7">
+                    <div class="sort-button sifat-header-button" data-sort-column="7">
                       <span class="sifat-header-text">صفات اخرى</span>
                     </div>
                   </th>
@@ -228,7 +228,7 @@
           const data = await response.json();
           const sifatEntries = Object.entries(data.sifat || {});
           sifatTableBody.innerHTML = sifatEntries
-            .map(([key, sifat]) => { 
+            .map(([key, sifat]) => {
               const arabicName = sifat.arabic_name || "";
               const sifatAcronym = toArabicAcronym(arabicName);
               const sifatClass = sifat.css_class || "";
@@ -241,7 +241,7 @@
               const oppositeClass = oppositeSifat
                 ? oppositeSifat.css_class
                 : "";
-                const oppositeLink = oppositeSifat
+              const oppositeLink = oppositeSifat
                 ? `<a href="#sifat-${sifat.opposite}" class="opposite-sifat-link" aria-label="شرح صفة ${oppositeName}">
                     <span class="opposite-sifat" title="${oppositeName}" aria-label="${oppositeName}">
                         <span class="sifat-full">${oppositeName}</span>
@@ -257,31 +257,26 @@
                         <span class="sifat-full">${arabicName}</span>
                         <span class="sifat-acronym" aria-hidden="true">${sifatAcronym}</span>
                 </span>`,
-
-                
               ]);
 
               if (sifat.opposite) {
-                cells.push([
-                  "عكسه",
-                  oppositeLink,
-                ]);
+                cells.push(["عكسه", oppositeLink]);
               }
               cells.push([
                 "<h4>شرح الصفة</h4>",
                 `<p>${sifat.description || ""}</p>`,
               ]);
 
-              let letters = ""; 
-                if (sifat.letters_memo) {
-                    letters += `
+              let letters = "";
+              if (sifat.letters_memo) {
+                letters += `
                     <div class="sepia">
                         <span class="letters-memo amiri-quran-regular">${sifat.letters_memo}</span>
-                    </div>`;    
-                }
-                if (sifat.letters) {
-                    letters += `<p class="sepia">${sifat.letters}</p>`;
-                }
+                    </div>`;
+              }
+              if (sifat.letters) {
+                letters += `<p class="sepia">${sifat.letters}</p>`;
+              }
               cells.push([`<h4 class="">حروفه</h4>`, letters]);
 
               const tableBegin = `<table class=" sifat-legend-table">
@@ -328,7 +323,7 @@
                   const sifatName = sifatMeta?.arabic_name || sifatKey || "";
                   const sifatClass = sifatMeta?.css_class || "";
                   const sifatAcronym = toArabicAcronym(sifatName);
-let content = `
+                  let content = `
 
                     <a href="#sifat-${sifatKey}" class="sifat-link" aria-label="شرح صفة ${sifatName}">
                     <span class="sifat-name ${sifatClass}" title="${sifatName}" aria-label="${sifatName}">
@@ -337,14 +332,15 @@ let content = `
                         </span>
                         </a>
                         `;
-                        if (index === 5 && letter.sifat.length > 6) {
-                            for (let i = 6; i < letter.sifat.length; i++) {
-                                const extraSifatKey = letter.sifat[i];
-                                const extraSifatMeta = sifatLookup[extraSifatKey];
-                                const extraSifatName = extraSifatMeta?.arabic_name || extraSifatKey || "";
-                                const extraSifatClass = extraSifatMeta?.css_class || "";
-                                const extraSifatAcronym = toArabicAcronym(extraSifatName);
-                                content += `
+                  if (index === 5 && letter.sifat.length > 6) {
+                    for (let i = 6; i < letter.sifat.length; i++) {
+                      const extraSifatKey = letter.sifat[i];
+                      const extraSifatMeta = sifatLookup[extraSifatKey];
+                      const extraSifatName =
+                        extraSifatMeta?.arabic_name || extraSifatKey || "";
+                      const extraSifatClass = extraSifatMeta?.css_class || "";
+                      const extraSifatAcronym = toArabicAcronym(extraSifatName);
+                      content += `
                                 <div class="extra-sifat">
                                     
                                     <a href="#sifat-${extraSifatKey}" class="sifat-link" aria-label="شرح صفة ${extraSifatName}">
@@ -355,8 +351,8 @@ let content = `
                                     </a>
                                     </div>
                                 `;
-                        }
                     }
+                  }
 
                   return `<td class="p-0 sifat-cell">
                 ${content}
@@ -392,5 +388,10 @@ let content = `
 
       renderSifatLegend();
     </script>
+
+    <footer class="text-center mt-5 mb-3">
+          <p class="author">إعداد: الحسين نمر</p>
+          <p>جميع الحقوق محفوظة &copy; 2026</p>
+    </footer>
   </body>
 </html>

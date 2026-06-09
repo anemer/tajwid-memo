@@ -1,3 +1,15 @@
+.author { 
+    font-size: 0.9em;
+    color: #555;
+}
+
+footer {
+    background-color: #f4f4f4;
+    padding: 20px 0;
+    margin-top: 40px;
+    border-top: 5px solid #c9c9c9;
+}
+
 .al-hams {
   background-color: #fe6a6a8f;
   border: 1px solid #c61313;
@@ -96,8 +108,8 @@
   font-size: 0.9em;
 }
 
-.sifat-header { 
-  border-radius: 10px 10px 0px 0px; 
+.sifat-header {
+  border-radius: 10px 10px 0px 0px;
   line-height: 1.1;
 }
 
@@ -199,8 +211,11 @@ a {
   }
 
   .sifat-header {
-    height: 50px;
-    width: 180px;
+    height: 50px; 
+  }
+
+  .sifat-header-button {
+    height: 50px; 
     font-size: 0.8em;
     transform: rotate(-90deg);
     line-height: 0.1;
@@ -361,5 +376,5 @@ td.legend-start span {
 }
 
 .align-right {
-    text-align: right;
+  text-align: right;
 }
