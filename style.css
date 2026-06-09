@@ -104,11 +104,26 @@
   line-height: 1.1;
 }
 
-.sifat-header-1 {
-  background-color: #e09f9f;
+#sifat-header-1 {
+  background-color: #e09f9f2b;
 }
-.sifat-header-2 {
-  background-color: #7a94ce;
+#sifat-header-2 {
+  background-color: #7a94ce2b;
+}
+
+#sifat-header-3 {
+  background-color: #4a874a2b;
+}
+
+#sifat-header-4 {
+  background-color: #42951f2b;
+}
+
+#sifat-header-5 {
+  background-color: #cfdafb2b;
+}
+#sifat-header-6 {
+  background-color: #f9f9f92b;
 }
 
 .only-wide {
@@ -161,8 +176,21 @@ a {
 }
 
 @media (max-width: 600px) {
+
+    th {
+        padding: 2px 5px;
+        margin: 0;
+        height: 60px;
+    }
   .only-wide {
     display: none;
+  }
+
+  .extra-sifat {
+    display: inline-block;
+    align-self: flex-start;
+    min-width: 50px;
+    
   }
 
   .sifat-name {
@@ -177,7 +205,14 @@ a {
     margin: 0px;
   }
 
+  #letters-table-header th {
+    vertical-align: bottom; 
+    font-size: 0.8em;
+  }
+
   .sifat-header {
+    height: 50px;
+    width: 180px;
     font-size: 0.8em;
     transform: rotate(-90deg);
     line-height: 0.1;
@@ -194,8 +229,8 @@ a {
     display: block;
     line-height: 0.9;
     padding: 0px;
-    margin: 0;
-    text-align: center;
+    margin: 0px;
+    text-align: left;
   }
 
   .sifat-full {
