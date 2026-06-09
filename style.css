@@ -161,6 +161,7 @@ footer {
   margin: 0px;
   border: 0px;
   border-radius: 0px;
+  font-family: "Cairo", serif;
 }
 
 .sifat-full, .sifat-full-legend {
@@ -198,13 +199,13 @@ a {
   font-weight: 600;
   color: #0d0d88;
   text-shadow: 1px 1px 2px #cfb07c;
-  font-family: monospace, monospace;
+  font-family: "Amiri", serif;
 }
 
 @media (max-width: 600px) {
     
 .letter-char {
-  font-size: 1.2em;
+  font-size: 1.3em; 
 }
 
   th {
@@ -232,6 +233,7 @@ a {
     box-sizing: border-box;
     text-align: center;
     margin: 0px;
+    font-size: 1.4em;
   }
 
   .letter-header-button {
