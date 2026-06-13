@@ -28,7 +28,7 @@
      showguides="true"
      inkscape:guide-bbox="true"
      inkscape:zoom="0.6299143"
-     inkscape:cx="1020.7738"
+     inkscape:cx="1021.5675"
      inkscape:cy="673.10744"
      inkscape:window-width="2560"
      inkscape:window-height="1369"
@@ -268,12 +268,14 @@
        stroke-width="2"
        id="rect12"
        style="fill:#f6ffff;fill-opacity:1" />
-    <text
-       x="678.82245"
-       y="238.20967"
-       fill="#000000"
+    <g
+       aria-label="ب"
        id="text14"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:74.6667px;font-family:'Traditional Arabic';-inkscape-font-specification:'Traditional Arabic, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#7137c8">ب</text>
+       style="font-size:74.6667px;font-family:'Traditional Arabic';-inkscape-font-specification:'Traditional Arabic, Normal';fill:#7137c8">
+      <path
+         d="m 726.76518,221.03779 q 0,6.59896 -5.90625,9.33334 -10.13542,4.70312 -22.38543,4.70312 -7.875,0 -12.21355,-2.26041 -4.30208,-2.26042 -4.30208,-6.41667 0,-2.88021 3.5,-8.34897 l 0.91146,0.29167 q -1.93229,3.09896 -1.93229,4.84896 0,3.20834 3.9375,5.03125 3.97396,1.78646 10.97396,1.78646 9.44271,0 18.37501,-2.77083 7.03646,-2.1875 7.03646,-3.97396 0,-0.51042 -0.25521,-0.875 l -1.56771,-2.77084 q -0.29166,-0.51041 -0.29166,-1.34896 0,-0.69271 0.54687,-1.93229 l 1.09375,-2.47917 q 2.47917,4.66667 2.47917,7.1823 z m -17.46355,19.97917 -2.33333,4.01042 -3.57292,-2.51562 2.22396,-3.82813 z"
+         id="path1711" />
+    </g>
     <rect
        x="163.96071"
        y="185.84993"
@@ -286,12 +288,14 @@
        stroke-width="2"
        id="rect20"
        style="fill:#f6ffff;fill-opacity:1" />
-    <text
-       x="192.32788"
-       y="227.83728"
-       fill="#000000"
+    <g
+       aria-label="ج"
        id="text22"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:74.6667px;font-family:'Traditional Arabic';-inkscape-font-specification:'Traditional Arabic, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#7137c8">ج</text>
+       style="font-size:74.6667px;font-family:'Traditional Arabic';-inkscape-font-specification:'Traditional Arabic, Normal';fill:#7137c8">
+      <path
+         d="m 230.09873,246.43104 -12.25,4.48438 h -4.44792 q -9.26042,0 -14.43751,-4.22917 -5.14063,-4.19271 -5.14063,-11.73959 0,-12.90626 13.67188,-21.14584 -4.33854,-0.91146 -6.67187,-0.91146 -2.11459,0 -4.77605,0.69271 l 0.76563,-3.6823 q 3.60937,-1.93229 6.41667,-1.93229 1.42187,0 5.6875,0.80208 4.26563,0.76563 9.55209,0.76563 3.13542,0 6.125,-0.21875 l -1.85937,3.71875 q -12.17709,0.98438 -19.65106,6.45313 -7.18229,5.32292 -7.18229,12.61459 0,6.81771 5.90625,10.57292 5.94271,3.75521 16.66147,3.75521 3.35417,0 11.41146,-0.76563 z m -16.33334,-17.6823 -2.40625,4.15625 -3.64584,-2.36979 2.22396,-4.19271 z"
+         id="path1714" />
+    </g>
     <rect
        x="269.34637"
        y="185.84993"
@@ -304,12 +308,14 @@
        stroke-width="2"
        id="rect28"
        style="fill:#f6ffff;fill-opacity:1" />
-    <text
-       x="297.88544"
-       y="245.20967"
-       fill="#000000"
+    <g
+       aria-label="د"
        id="text30"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:74.6667px;font-family:'Traditional Arabic';-inkscape-font-specification:'Traditional Arabic, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#7137c8">د</text>
+       style="font-size:74.6667px;font-family:'Traditional Arabic';-inkscape-font-specification:'Traditional Arabic, Normal';fill:#7137c8">
+      <path
+         d="m 318.84899,232.30341 q 0,2.33334 -1.09375,4.92188 -5.8698,3.71875 -12.25001,3.71875 -1.09375,0 -4.55729,-0.36458 l 0.65625,-5.35938 q 1.56771,0.14584 3.68229,0.14584 7.80209,0 11.84897,-2.625 -0.4375,-5.90626 -10.75522,-9.62501 l 1.4948,-5.17709 q 4.44791,0.94792 7.69271,5.25001 3.28125,4.26562 3.28125,9.11458 z"
+         id="path1717" />
+    </g>
     <rect
        x="396.62753"
        y="185.84993"
@@ -322,12 +328,14 @@
        stroke-width="2"
        id="rect36"
        style="fill:#f6ffff;fill-opacity:1" />
-    <text
-       x="424.52075"
-       y="253.86853"
-       fill="#000000"
+    <g
+       aria-label="ط"
        id="text38"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:74.6667px;font-family:'Traditional Arabic';-inkscape-font-specification:'Traditional Arabic, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#7137c8">ط</text>
+       style="font-size:74.6667px;font-family:'Traditional Arabic';-inkscape-font-specification:'Traditional Arabic, Normal';fill:#7137c8">
+      <path
+         d="m 463.82286,234.76435 q 0,0.83855 -0.1823,1.9323 -0.18229,1.09375 -0.54687,2.1875 -0.32813,1.09375 -0.80208,2.11458 -0.47396,0.98438 -1.0573,1.67709 -1.23958,1.49479 -3.90104,2.77083 -2.625,1.27604 -6.08855,2.22396 -3.42708,0.91146 -7.40104,1.42188 -3.97396,0.51041 -7.91146,0.51041 -2.1875,0 -3.64584,-0.25521 -1.42187,-0.2552 -2.15104,-0.61979 -1.71354,-0.80208 -4.70313,-4.48437 2.66146,0.36458 4.48438,0.54687 1.85938,0.18229 2.88021,0.18229 5.50521,0 7.32813,-1.82291 1.85937,-1.78646 1.85937,-7.21876 0,-6.41667 -1.45833,-13.70834 -0.72917,-3.71875 -1.09375,-5.72396 -0.36458,-2.04167 -0.36458,-2.44271 0,-1.89583 1.82291,-4.77604 l 3.13542,4.55729 q -1.82292,2.04167 -1.82292,4.04688 0,0.4375 0.65625,5.17708 0.36459,2.40626 0.58334,4.59376 0.21875,2.15104 0.21875,4.22916 0,4.22917 -0.65625,8.4948 2.44271,-2.44271 4.41146,-4.30208 2.00521,-1.89584 3.64583,-3.13542 1.67709,-1.27605 3.13542,-1.9323 1.45834,-0.65625 2.88021,-0.65625 1.23958,0 2.44271,0.40105 1.20313,0.40104 2.15104,1.05729 0.98438,0.61979 1.56771,1.42187 0.58334,0.76563 0.58334,1.53125 z m -7.72917,0.40105 q -0.98438,0 -2.69792,0.83854 -1.71354,0.80208 -3.71875,2.15104 -2.00521,1.3125 -4.1198,3.0625 -2.07812,1.71355 -3.86458,3.53646 1.67708,-0.10937 3.39062,-0.36458 1.75,-0.25521 3.39063,-0.58333 1.67708,-0.32813 3.20834,-0.69271 1.53125,-0.40105 2.80729,-0.72917 1.23958,-0.32813 2.36979,-0.80208 1.13021,-0.51042 2.00521,-1.02084 0.91146,-0.54687 1.53125,-1.05729 0.65625,-0.51042 0.875,-0.875 -0.18229,-0.47396 -0.76562,-1.05729 -0.58334,-0.61979 -1.34896,-1.13021 -0.76563,-0.54688 -1.60417,-0.91146 -0.80208,-0.36458 -1.45833,-0.36458 z"
+         id="path1720" />
+    </g>
     <rect
        x="526.49426"
        y="185.84993"
@@ -340,12 +348,14 @@
        stroke-width="2"
        id="rect44"
        style="fill:#f6ffff;fill-opacity:1" />
-    <text
-       x="568.96912"
-       y="248.29041"
-       fill="#000000"
+    <g
+       aria-label="ق"
        id="text46"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:74.6667px;font-family:'Traditional Arabic';-inkscape-font-specification:'Traditional Arabic, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#7137c8">ق</text>
+       style="font-size:74.6667px;font-family:'Traditional Arabic';-inkscape-font-specification:'Traditional Arabic, Normal';fill:#7137c8">
+      <path
+         d="m 604.37018,232.61331 q 0,6.08855 -2.58855,9.66147 -2.55208,3.57292 -7.18229,5.76042 -4.63021,2.1875 -9.58855,2.1875 -5.43229,0 -8.53125,-2.51563 -3.09896,-2.55208 -3.09896,-6.96354 0,-4.88542 4.77604,-12.97918 l 0.65625,0.4375 q -2.98958,5.54167 -2.98958,9.11459 0,3.53646 2.58854,5.57813 2.58854,2.04167 7.07292,2.04167 6.34375,0 12.06772,-3.13542 5.61458,-3.0625 5.61458,-6.96355 0,-1.75 -1.49479,-4.48437 -2.47917,3.24479 -5.4323,3.24479 -2.0052,0 -3.31771,-1.20313 -1.3125,-1.23958 -1.3125,-3.0625 0,-4.52083 3.71876,-8.96875 1.20312,-1.42188 2.55208,-1.42188 1.96875,0 4.01042,3.90105 2.47917,4.70312 2.47917,9.77083 z m -5.68751,-6.01562 q -1.3125,-1.96875 -2.69791,-1.96875 -1.71355,0 -1.71355,1.49479 0,1.42187 1.78646,1.42187 1.56771,0 2.625,-0.94791 z m 4.77605,-15.31251 -2.29688,4.01042 -3.97396,-2.66146 -2.00521,3.42708 -4.04687,-2.77083 2.26041,-3.79167 4.01042,2.66146 2.1875,-3.5 z"
+         id="path1723" />
+    </g>
     <g
        id="g33483"
        transform="translate(-10.437269,113.56557)">
@@ -361,12 +371,14 @@
          stroke-width="2"
          id="rect54"
          style="fill:#e5ebff;fill-opacity:1" />
-      <text
-         x="541.99164"
-         y="-14.822647"
-         fill="#000000"
+      <g
+         aria-label="ت"
          id="text56"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:74.6667px;font-family:'Traditional Arabic';-inkscape-font-specification:'Traditional Arabic, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#7137c8">ت</text>
+         style="font-size:74.6667px;font-family:'Traditional Arabic';-inkscape-font-specification:'Traditional Arabic, Normal';fill:#7137c8">
+        <path
+           d="m 589.93437,-31.99453 q 0,6.598961 -5.90625,9.333338 -10.13542,4.703127 -22.38543,4.703127 -7.875,0 -12.21355,-2.260418 -4.30208,-2.260418 -4.30208,-6.41667 0,-2.880209 3.5,-8.348962 l 0.91146,0.291667 q -1.93229,3.09896 -1.93229,4.84896 0,3.208335 3.9375,5.031253 3.97396,1.786459 10.97396,1.786459 9.44271,0 18.37501,-2.770835 7.03646,-2.187501 7.03646,-3.97396 0,-0.510417 -0.25521,-0.875 l -1.56771,-2.770835 q -0.29166,-0.510417 -0.29166,-1.348959 0,-0.692709 0.54687,-1.932293 l 1.09375,-2.479167 q 2.47917,4.666669 2.47917,7.182295 z m -17.2448,-8.239588 -2.47917,3.973961 -3.79167,-2.843752 -2.33333,3.281252 -3.5,-2.66146 2.36979,-3.97396 3.82813,2.843751 2.07812,-3.354168 z"
+           id="path1726" />
+      </g>
     </g>
     <g
        id="g95997"
@@ -383,12 +395,14 @@
          stroke-width="2"
          id="rect62"
          style="fill:#e5ebff;fill-opacity:1" />
-      <text
-         x="654.29926"
-         y="-21.73193"
-         fill="#000000"
+      <g
+         aria-label="ك"
          id="text64"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:74.6667px;font-family:'Traditional Arabic';-inkscape-font-specification:'Traditional Arabic, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#7137c8">ك</text>
+         style="font-size:74.6667px;font-family:'Traditional Arabic';-inkscape-font-specification:'Traditional Arabic, Normal';fill:#7137c8">
+        <path
+           d="m 687.22115,-35.185061 q 0,3.75521 -1.71355,6.343753 -1.71354,2.515626 -4.19271,2.625001 -9.58854,0.4375 -11.41146,0.4375 -3.31771,0 -5.46875,-0.07292 -2.11459,-0.07292 -3.09896,-0.218751 -3.75521,-0.473958 -3.75521,-2.442709 0,-2.515626 1.13021,-5.104169 h 0.72916 q 0,2.515626 3.13542,2.953126 2.98959,-0.03646 5.97917,-0.03646 3.09896,0 6.59896,-0.145833 3.5,-0.145834 7.47396,-0.437501 2.73438,-0.21875 2.73438,-1.859376 0,-0.947917 -0.69271,-4.776043 -0.65625,-3.864586 -2.00521,-10.718756 -2.66146,-13.416673 -2.66146,-14.546882 0,-3.062501 1.85938,-4.229168 l 2.91667,4.083335 q -1.56771,1.239584 -1.64063,3.75521 -0.0365,0.364584 0.47396,2.953127 0.51042,2.588542 1.53125,7.546878 2.07813,9.916672 2.07813,13.890632 z m -12.79689,-11.885423 q 0,2.114585 -1.85937,4.119794 -2.07813,2.296876 -4.88542,2.296876 -2.00521,0 -4.77604,-1.786459 v -0.145833 q 7.69271,-0.692709 7.69271,-2.22396 0,-0.765625 -2.44271,-0.911459 -2.69792,-0.182291 -2.69792,-2.078126 0,-1.786459 1.89583,-4.776043 2.15105,-3.354169 4.73959,-4.812503 l 0.51042,3.53646 q -3.79167,1.713543 -3.79167,2.734377 0,0.510416 0.54687,0.765625 0.54688,0.21875 1.67709,0.364583 1.75,0.218751 2.55208,1.020834 0.83854,0.765626 0.83854,1.895834 z"
+           id="path1729" />
+      </g>
     </g>
     <g
        id="g96001"
@@ -405,12 +419,14 @@
          stroke-width="2"
          id="rect70"
          style="fill:#f6ffff;fill-opacity:1" />
-      <text
-         x="400.30743"
-         y="-20.011229"
-         fill="#000000"
+      <g
+         aria-label="ء"
          id="text72"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:74.6667px;font-family:'Traditional Arabic';-inkscape-font-specification:'Traditional Arabic, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#7137c8;fill-opacity:1">ء</text>
+         style="font-size:74.6667px;font-family:'Traditional Arabic';-inkscape-font-specification:'Traditional Arabic, Normal';fill:#7137c8">
+        <path
+           d="m 415.14598,-27.703941 q 2.15105,0 5.54167,-1.239583 l 0.14584,0.145833 q -0.72917,2.552084 -2.33334,3.31771 l -13.59896,6.526045 v -0.692709 q 0,-1.166667 1.49479,-2.296876 1.53125,-1.130209 4.48438,-2.406251 -3.02605,-0.729167 -4.70313,-2.00521 -1.67709,-1.276042 -1.67709,-3.135418 0,-1.166667 0.83855,-2.770834 0.83854,-1.640626 2.47916,-3.718752 1.0573,-1.348959 2.22396,-2.114585 1.16667,-0.765625 2.66146,-0.765625 1.34896,0 2.22396,0.838542 0.91146,0.802084 0.91146,1.968751 0,0.65625 -0.25521,1.531251 -0.25521,0.875 -1.05729,2.041667 h -0.21875 q -1.42188,-2.296876 -3.5,-2.296876 -1.3125,0 -2.29688,1.130209 -0.94791,1.130209 -0.94791,2.369793 0,1.385417 2.55208,2.479168 2.40625,1.09375 5.03125,1.09375 z"
+           id="path1732" />
+      </g>
     </g>
     <rect
        style="fill:#dbdbe3;fill-opacity:0.20092;stroke:#373748;stroke-width:1.44782;stroke-miterlimit:4;stroke-dasharray:8.68691, 8.68691;stroke-dashoffset:0;stroke-opacity:1"
@@ -433,12 +449,14 @@
        stroke-width="2"
        id="rect84"
        style="fill:#f6ffff;fill-opacity:1" />
-    <text
-       x="832.68671"
-       y="233.01436"
-       fill="#000000"
+    <g
+       aria-label="ر"
        id="text86"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:74.6667px;font-family:'Traditional Arabic';-inkscape-font-specification:'Traditional Arabic, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#7137c8">ر</text>
+       style="font-size:74.6667px;font-family:'Traditional Arabic';-inkscape-font-specification:'Traditional Arabic, Normal';fill:#7137c8">
+      <path
+         d="m 854.85338,225.61331 q 0,7.00001 -4.19271,12.46876 -4.15625,5.46875 -9.47917,5.46875 -3.02604,0 -8.05729,-2.26042 l 0.61979,-0.65625 q 2.36979,0.58334 3.86458,0.58334 3.2448,0 6.05209,-1.78646 3.97396,-2.55209 6.63542,-5.72396 2.69792,-3.17188 2.69792,-5.39584 0,-1.49479 -1.53125,-4.48438 -1.53125,-2.98958 -1.53125,-3.9375 0,-0.69271 0.58333,-1.82292 l 1.42188,-2.73437 q 2.91666,4.15625 2.91666,10.28125 z"
+         id="path1735" />
+    </g>
     <g
        id="g933"
        transform="translate(-22.999128,-29.140786)">
@@ -454,12 +472,14 @@
          stroke-width="2"
          id="rect92"
          style="fill:#f6ffff;fill-opacity:1" />
-      <text
-         x="930.10492"
-         y="130.17828"
-         fill="#000000"
+      <g
+         aria-label="ع"
          id="text94"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:74.6667px;font-family:'Traditional Arabic';-inkscape-font-specification:'Traditional Arabic, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#7137c8">ع</text>
+         style="font-size:74.6667px;font-family:'Traditional Arabic';-inkscape-font-specification:'Traditional Arabic, Normal';fill:#7137c8">
+        <path
+           d="m 967.65702,148.69913 -11.30209,4.22916 q -2.15104,0.32813 -4.15625,0.32813 -9.11459,0 -14.76563,-4.22917 -5.54167,-4.22917 -5.54167,-11.22917 0,-5.28646 1.93229,-9.88021 0.51042,-1.16667 1.09375,-2.26042 0.6198,-1.09375 1.34896,-2.22396 0.76563,-1.13021 1.67709,-2.29688 0.94791,-1.16666 2.11458,-2.47917 -3.42708,-0.91145 -5.25,-2.4427 -1.78646,-1.56771 -1.78646,-3.57292 0,-1.16667 0.58333,-2.84375 0.58334,-1.67709 1.82292,-3.6823 1.42188,-2.33333 3.24479,-3.53646 1.85938,-1.23958 3.50001,-1.23958 0.65625,0 1.53125,0.25521 0.91145,0.25521 1.89583,0.72916 0.98438,0.47396 1.93229,1.13021 0.94792,0.61979 1.71355,1.42188 l -0.29167,0.36458 q -0.72917,-0.29167 -1.45834,-0.4375 -0.6927,-0.18229 -1.71354,-0.18229 -0.61979,0 -1.45833,0.0729 -0.80209,0.0729 -1.82292,0.32812 -0.98437,0.21875 -2.1875,0.69271 -1.16667,0.4375 -2.51563,1.23958 -1.34896,0.80209 -1.75,1.4948 -0.36458,0.65625 -0.36458,1.16666 0,0.6198 0.54687,1.42188 0.58334,0.80208 2.3698,1.71354 2.88021,1.45834 5.50521,1.45834 0.94792,0 2.51562,-0.76563 1.60417,-0.76562 4.44792,-2.44271 1.02084,-0.58333 4.04688,-1.96875 l 0.10937,0.14583 -3.02604,4.70313 q -3.0625,1.75 -5.35938,3.09896 -2.29687,1.34896 -3.82812,2.51563 -9.18751,7.14583 -9.18751,14.94792 0,7.03646 7.80209,11.33855 4.95834,2.77083 15.13022,2.77083 2.51562,0 5.17708,-0.18229 2.66146,-0.14583 5.50521,-0.51042 z"
+           id="path1738" />
+      </g>
     </g>
     <rect
        x="924.26874"
@@ -473,12 +493,14 @@
        stroke-width="2"
        id="rect100"
        style="fill:#f6ffff;fill-opacity:1" />
-    <text
-       x="957.14374"
-       y="250.20447"
-       fill="#000000"
+    <g
+       aria-label="ل"
        id="text102"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:74.6667px;font-family:'Traditional Arabic';-inkscape-font-specification:'Traditional Arabic, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#7137c8">ل</text>
+       style="font-size:74.6667px;font-family:'Traditional Arabic';-inkscape-font-specification:'Traditional Arabic, Normal';fill:#7137c8">
+      <path
+         d="m 985.98229,241.01696 q 0,4.77605 -1.56771,7.25522 -1.75,2.77083 -5.72396,4.66666 -3.9375,1.89584 -7.94792,1.89584 -4.55729,0 -7.54688,-2.44271 -2.98958,-2.40625 -2.98958,-6.16146 0,-4.88542 4.11979,-12.14063 l 0.875,0.51041 -0.4375,0.875 q -2.47917,4.88542 -2.47917,7.32813 0,3.0625 2.51563,5.06771 2.51563,1.96875 6.38021,1.96875 5.4323,0 10.82813,-3.13541 2.625,-1.53125 2.625,-3.82813 0,-4.41146 -2.26042,-19.32293 -2.22395,-14.94792 -2.22395,-15.45834 0,-2.26042 1.42187,-4.04687 l 3.13542,4.33854 q -1.42188,1.34896 -1.42188,4.19271 0,1.23958 1.34896,12.61459 1.34896,11.33855 1.34896,15.82292 z"
+         id="path1741" />
+    </g>
     <rect
        x="1046.6355"
        y="181.42291"
@@ -491,12 +513,14 @@
        stroke-width="2"
        id="rect108"
        style="fill:#f6ffff;fill-opacity:1" />
-    <text
-       x="1074.4128"
-       y="231.24612"
-       fill="#000000"
+    <g
+       aria-label="م"
        id="text110"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:74.6667px;font-family:'Traditional Arabic';-inkscape-font-specification:'Traditional Arabic, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#7137c8">م</text>
+       style="font-size:74.6667px;font-family:'Traditional Arabic';-inkscape-font-specification:'Traditional Arabic, Normal';fill:#7137c8">
+      <path
+         d="m 1094.5743,216.44403 q 0,1.45834 -0.9844,3.90105 -1.2031,-0.0729 -1.9687,-0.10938 -0.7292,-0.0365 -1.1667,-0.0729 -0.4375,-0.0365 -0.6562,-0.0365 -0.2188,0 -0.3646,0 -4.5209,0 -7.8021,1.75 -3.2448,1.71354 -3.2448,4.08333 0,2.29688 0.7292,5.17709 0.7291,2.88021 1.8958,6.74479 0.9115,2.95313 1.3854,5.4323 0.5104,2.47917 0.5104,4.55729 0,0.51042 -0.1458,1.38542 -0.1094,0.875 -0.5469,1.67708 h -0.2187 q -0.3281,-1.75 -1.0573,-4.88542 -0.7292,-3.09896 -1.8958,-7.80208 -2.0053,-7.69271 -2.0053,-9.91667 0,-2.77084 0.8386,-6.19792 0.9114,-3.53646 2.151,-4.33855 2.5521,-1.64062 7.3646,-2.80729 -1.7135,-1.82292 -3.1354,-1.82292 -1.4219,0 -3.2083,1.96875 l -1.0938,-0.25521 q 0.6927,-1.96875 1.349,-3.31771 0.6562,-1.38541 1.3489,-2.11458 1.3854,-1.49479 3.6459,-1.49479 2.7708,0 5.9427,3.64583 2.3333,2.66146 2.3333,4.84896 z"
+         id="path1744" />
+    </g>
     <rect
        x="1156.6355"
        y="181.42291"
@@ -509,12 +533,14 @@
        stroke-width="2"
        id="rect116"
        style="fill:#f6ffff;fill-opacity:1" />
-    <text
-       x="1190.0027"
-       y="248.78259"
-       fill="#000000"
+    <g
+       aria-label="ن"
        id="text118"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:74.6667px;font-family:'Traditional Arabic';-inkscape-font-specification:'Traditional Arabic, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#7137c8">ن</text>
+       style="font-size:74.6667px;font-family:'Traditional Arabic';-inkscape-font-specification:'Traditional Arabic, Normal';fill:#7137c8">
+      <path
+         d="m 1218.586,233.76175 q 0,6.08855 -4.0468,9.91667 -4.0469,3.82813 -10.4271,3.82813 -4.9584,0 -7.6927,-2.40625 -2.698,-2.44271 -2.698,-6.85417 0,-3.68229 3.3907,-10.75521 l 0.6562,0.32812 q -2.2239,4.8125 -2.2239,7.51042 0,2.91667 2.4791,4.95834 2.4427,2.00521 6.0886,2.00521 5.1406,0 9.0052,-2.00521 3.901,-2.04167 3.901,-4.70313 0,-3.57292 -4.7031,-13.38021 0,-0.91146 1.4948,-4.22917 h 0.1458 q 4.6302,7.07292 4.6302,15.78646 z m -11.1198,-19.68751 -2.4427,3.86459 -3.6094,-2.51563 2.4063,-4.04688 z"
+         id="path1747" />
+    </g>
     <rect
        x="396.62753"
        y="548.45355"
@@ -527,12 +553,14 @@
        stroke-width="2"
        id="rect130"
        style="fill:#e5ebff;fill-opacity:1" />
-    <text
-       x="414.677"
-       y="601.21136"
-       fill="#000000"
+    <g
+       aria-label="ص"
        id="text132"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:74.6667px;font-family:'Traditional Arabic';-inkscape-font-specification:'Traditional Arabic, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#7137c8">ص</text>
+       style="font-size:74.6667px;font-family:'Traditional Arabic';-inkscape-font-specification:'Traditional Arabic, Normal';fill:#7137c8">
+      <path
+         d="m 469.94786,590.34678 q -0.98438,1.05729 -2.69792,2.11458 -1.67708,1.02083 -4.19271,1.89583 -2.51562,0.83855 -5.86979,1.42188 -3.31771,0.58333 -7.58334,0.72917 -0.40104,1.13021 -0.83854,2.44271 -0.40104,1.27604 -0.80209,2.80729 h -0.18229 q -0.18229,-0.18229 -0.32812,-0.47396 -0.10938,-0.25521 -0.21875,-0.76562 0.18229,-1.02084 0.40104,-2.00521 0.21875,-0.98438 0.47396,-2.00521 -1.85938,0 -3.5,-0.47396 -0.10938,7.07292 -3.39063,12.97917 -3.57292,6.45313 -14.91147,6.45313 -4.55729,0 -7.4375,-2.66146 -2.91667,-2.69792 -2.91667,-6.74479 0,-4.26563 4.01042,-10.46355 l 0.69271,0.25521 q -2.69792,4.99479 -2.69792,8.05729 0,1.60417 0.76563,2.84375 0.80208,1.27605 2.22396,2.15105 1.45833,0.91146 3.53646,1.38541 2.11458,0.47396 4.73958,0.47396 4.01042,0 7.43751,-1.38541 3.42708,-1.34896 4.66666,-3.46355 1.13021,-2.04167 1.13021,-6.01563 0,-2.15104 -0.69271,-4.26562 -0.65625,-2.15105 -1.82291,-3.79167 l 2.00521,-4.30209 q 0.61979,0.875 1.16666,1.9323 0.54688,1.02083 0.83855,1.75 1.05729,0.47396 2.11458,0.65625 1.05729,0.18229 2.22396,0.18229 0.40104,0 0.83854,0 0.4375,0 0.91146,-0.0729 2.00521,-3.31771 4.30209,-6.05208 2.33333,-2.73438 4.84896,-4.77605 2.15104,-1.75 4.15625,-2.73437 2.00521,-0.98438 3.28125,-0.98438 1.3125,0 2.51563,0.51042 1.20312,0.47396 2.11458,1.20312 0.94792,0.69271 1.49479,1.49479 0.54688,0.76563 0.54688,1.38542 0,1.49479 -0.29167,2.73438 -0.29167,1.23958 -0.76562,2.26042 -0.47396,0.98437 -1.09375,1.82291 -0.58334,0.80209 -1.20313,1.4948 z m -4.63021,-8.0573 q -1.02083,0 -2.58854,0.65625 -1.53125,0.65625 -3.35417,1.89584 -1.78646,1.20312 -3.6823,3.02604 -1.89583,1.78646 -3.60937,4.08333 0.61979,0 1.16667,-0.0364 0.58333,-0.0365 1.34895,-0.10938 2.62501,-0.18229 5.14063,-0.76563 2.55209,-0.61979 5.46875,-1.75 2.29688,-0.875 3.71876,-1.82291 1.42187,-0.98438 1.82291,-1.64063 -0.4375,-0.61979 -1.05729,-1.23958 -0.61979,-0.65625 -1.34896,-1.16667 -0.72916,-0.51042 -1.53125,-0.80208 -0.76562,-0.32813 -1.49479,-0.32813 z"
+         id="path1750" />
+    </g>
     <g
        id="g42183"
        transform="translate(16.838166,98.222637)">
@@ -548,12 +576,14 @@
          stroke-width="2"
          id="rect138"
          style="fill:#f6ffff;fill-opacity:1" />
-      <text
-         x="396.71628"
-         y="385.32343"
-         fill="#000000"
+      <g
+         aria-label="ض"
          id="text140"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:74.6667px;font-family:'Traditional Arabic';-inkscape-font-specification:'Traditional Arabic, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#7137c8">ض</text>
+         style="font-size:74.6667px;font-family:'Traditional Arabic';-inkscape-font-specification:'Traditional Arabic, Normal';fill:#7137c8">
+        <path
+           d="m 451.98714,374.45884 q -0.98438,1.05729 -2.69792,2.11458 -1.67708,1.02083 -4.19271,1.89584 -2.51562,0.83854 -5.86979,1.42187 -3.31771,0.58333 -7.58334,0.72917 -0.40104,1.13021 -0.83854,2.44271 -0.40104,1.27604 -0.80209,2.80729 h -0.18229 q -0.18229,-0.18229 -0.32812,-0.47396 -0.10938,-0.25521 -0.21875,-0.76562 0.18229,-1.02084 0.40104,-2.00521 0.21875,-0.98438 0.47396,-2.00521 -1.85938,0 -3.5,-0.47396 -0.10938,7.07292 -3.39063,12.97917 -3.57292,6.45313 -14.91147,6.45313 -4.55729,0 -7.4375,-2.66146 -2.91667,-2.69792 -2.91667,-6.74479 0,-4.26563 4.01042,-10.46355 l 0.69271,0.25521 q -2.69792,4.99479 -2.69792,8.05729 0,1.60417 0.76563,2.84375 0.80208,1.27605 2.22396,2.15105 1.45833,0.91146 3.53646,1.38541 2.11458,0.47396 4.73958,0.47396 4.01042,0 7.43751,-1.38541 3.42708,-1.34896 4.66666,-3.46355 1.13021,-2.04167 1.13021,-6.01563 0,-2.15104 -0.69271,-4.26562 -0.65625,-2.15105 -1.82291,-3.79167 l 2.00521,-4.30209 q 0.61979,0.875 1.16666,1.9323 0.54688,1.02083 0.83855,1.75 1.05729,0.47396 2.11458,0.65625 1.05729,0.18229 2.22396,0.18229 0.40104,0 0.83854,0 0.4375,0 0.91146,-0.0729 2.00521,-3.31771 4.30209,-6.05208 2.33333,-2.73438 4.84896,-4.77605 2.15104,-1.75 4.15625,-2.73437 2.00521,-0.98438 3.28125,-0.98438 1.3125,0 2.51563,0.51042 1.20312,0.47396 2.11458,1.20312 0.94792,0.69271 1.49479,1.4948 0.54688,0.76562 0.54688,1.38541 0,1.4948 -0.29167,2.73438 -0.29167,1.23958 -0.76562,2.26042 -0.47396,0.98437 -1.09375,1.82291 -0.58334,0.80209 -1.20313,1.4948 z m -4.63021,-8.0573 q -1.02083,0 -2.58854,0.65625 -1.53125,0.65625 -3.35417,1.89584 -1.78646,1.20312 -3.6823,3.02604 -1.89583,1.78646 -3.60937,4.08333 0.61979,0 1.16666,-0.0365 0.58334,-0.0365 1.34896,-0.10938 2.62501,-0.18229 5.14063,-0.76562 2.55209,-0.6198 5.46875,-1.75001 2.29688,-0.875 3.71876,-1.82291 1.42187,-0.98438 1.82291,-1.64063 -0.4375,-0.61979 -1.05729,-1.23958 -0.61979,-0.65625 -1.34896,-1.16667 -0.72916,-0.51042 -1.53125,-0.80208 -0.76562,-0.32813 -1.49479,-0.32813 z m -6.5625,-12.14063 -2.58855,3.82813 -3.46354,-2.91667 2.55208,-3.75521 z"
+           id="path1753" />
+      </g>
     </g>
     <rect
        x="396.62753"
@@ -567,12 +597,14 @@
        stroke-width="2"
        id="rect146"
        style="fill:#f6ffff;fill-opacity:1" />
-    <text
-       x="424.52075"
-       y="375.98215"
-       fill="#000000"
+    <g
+       aria-label="ظ"
        id="text148"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:74.6667px;font-family:'Traditional Arabic';-inkscape-font-specification:'Traditional Arabic, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#7137c8">ظ</text>
+       style="font-size:74.6667px;font-family:'Traditional Arabic';-inkscape-font-specification:'Traditional Arabic, Normal';fill:#7137c8">
+      <path
+         d="m 463.82286,356.87797 q 0,0.83854 -0.1823,1.93229 -0.18229,1.09375 -0.54687,2.18751 -0.32813,1.09375 -0.80208,2.11458 -0.47396,0.98437 -1.0573,1.67708 -1.23958,1.4948 -3.90104,2.77084 -2.625,1.27604 -6.08855,2.22396 -3.42708,0.91146 -7.40104,1.42187 -3.97396,0.51042 -7.91146,0.51042 -2.1875,0 -3.64584,-0.25521 -1.42187,-0.25521 -2.15104,-0.61979 -1.71354,-0.80208 -4.70313,-4.48438 2.66146,0.36459 4.48438,0.54688 1.85938,0.18229 2.88021,0.18229 5.50521,0 7.32813,-1.82292 1.85937,-1.78646 1.85937,-7.21875 0,-6.41667 -1.45833,-13.70834 -0.72917,-3.71875 -1.09375,-5.72396 -0.36458,-2.04167 -0.36458,-2.44271 0,-1.89584 1.82291,-4.77605 l 3.13542,4.5573 q -1.82292,2.04167 -1.82292,4.04688 0,0.4375 0.65625,5.17708 0.36459,2.40625 0.58334,4.59375 0.21875,2.15105 0.21875,4.22917 0,4.22917 -0.65625,8.4948 2.44271,-2.44271 4.41146,-4.30209 2.00521,-1.89583 3.64583,-3.13542 1.67709,-1.27604 3.13542,-1.93229 1.45834,-0.65625 2.88021,-0.65625 1.23958,0 2.44271,0.40104 1.20313,0.40104 2.15104,1.0573 0.98438,0.61979 1.56771,1.42187 0.58334,0.76563 0.58334,1.53125 z m -7.72917,0.40104 q -0.98438,0 -2.69792,0.83855 -1.71354,0.80208 -3.71875,2.15104 -2.00521,1.3125 -4.1198,3.0625 -2.07812,1.71354 -3.86458,3.53646 1.67708,-0.10938 3.39062,-0.36458 1.75,-0.25521 3.39063,-0.58334 1.67708,-0.32812 3.20834,-0.69271 1.53125,-0.40104 2.80729,-0.72916 1.23958,-0.32813 2.36979,-0.80209 1.13021,-0.51041 2.00521,-1.02083 0.91146,-0.54688 1.53125,-1.05729 0.65625,-0.51042 0.875,-0.875 -0.18229,-0.47396 -0.76562,-1.0573 -0.58334,-0.61979 -1.34896,-1.1302 -0.76563,-0.54688 -1.60417,-0.91146 -0.80208,-0.36459 -1.45833,-0.36459 z m -0.51042,-14.4375 -2.58854,3.82812 -3.46355,-2.91666 2.55209,-3.75521 z"
+         id="path1756" />
+    </g>
     <g
        id="g3636"
        transform="translate(0.84299381,-31.146486)">
@@ -588,12 +620,14 @@
          stroke-width="2"
          id="rect156"
          style="fill:#f6ffff;fill-opacity:1" />
-      <text
-         x="970.09845"
-         y="546.77576"
-         fill="#000000"
+      <g
+         aria-label="ا"
          id="text158"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:74.6667px;font-family:'Traditional Arabic';-inkscape-font-specification:'Traditional Arabic, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#7137c8">ا</text>
+         style="font-size:74.6667px;font-family:'Traditional Arabic';-inkscape-font-specification:'Traditional Arabic, Normal';fill:#7137c8">
+        <path
+           d="m 978.33804,532.95804 q 0,3.31771 -1.9323,9.11459 l -0.72916,-0.21875 q 0.4375,-2.91667 0.4375,-3.97396 0,-2.73438 -0.4375,-6.05209 l -1.85938,-14.14584 q -0.32812,-2.47916 -0.32812,-3.68229 0,-2.88021 2.40625,-7.69271 0.0729,5.90625 0.51041,9.26042 l 1.4948,11.95834 q 0.4375,3.5 0.4375,5.43229 z"
+           id="path1759" />
+      </g>
     </g>
     <rect
        x="653.33875"
@@ -607,12 +641,14 @@
        stroke-width="2"
        id="rect164"
        style="fill:#e5ebff;fill-opacity:1" />
-    <text
-       x="678.82245"
-       y="603.55939"
-       fill="#000000"
+    <g
+       aria-label="ث"
        id="text166"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:74.6667px;font-family:'Traditional Arabic';-inkscape-font-specification:'Traditional Arabic, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#7137c8">ث</text>
+       style="font-size:74.6667px;font-family:'Traditional Arabic';-inkscape-font-specification:'Traditional Arabic, Normal';fill:#7137c8">
+      <path
+         d="m 726.76518,586.3875 q 0,6.59897 -5.90625,9.33334 -10.13542,4.70313 -22.38543,4.70313 -7.875,0 -12.21355,-2.26042 -4.30208,-2.26042 -4.30208,-6.41667 0,-2.88021 3.5,-8.34896 l 0.91146,0.29167 q -1.93229,3.09896 -1.93229,4.84896 0,3.20833 3.9375,5.03125 3.97396,1.78646 10.97396,1.78646 9.44271,0 18.37501,-2.77084 7.03646,-2.1875 7.03646,-3.97396 0,-0.51041 -0.25521,-0.875 l -1.56771,-2.77083 q -0.29166,-0.51042 -0.29166,-1.34896 0,-0.69271 0.54687,-1.93229 l 1.09375,-2.47917 q 2.47917,4.66667 2.47917,7.18229 z m -21.94793,-15.02084 -2.33333,3.79167 -3.57292,-2.51562 2.22396,-3.82813 z m 4.48438,6.63542 -2.33333,3.79167 -3.79167,-2.58854 -2.1875,3.35417 -3.79167,-2.69792 2.36979,-3.86459 3.90104,2.73438 2.00521,-3.42708 z"
+         id="path1762" />
+    </g>
     <rect
        x="653.33875"
        y="426.71628"
@@ -625,12 +661,14 @@
        stroke-width="2"
        id="rect172"
        style="fill:#e5ebff;fill-opacity:1" />
-    <text
-       x="684.7287"
-       y="470.44156"
-       fill="#000000"
+    <g
+       aria-label="ح"
        id="text174"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:74.6667px;font-family:'Traditional Arabic';-inkscape-font-specification:'Traditional Arabic, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#7137c8">ح</text>
+       style="font-size:74.6667px;font-family:'Traditional Arabic';-inkscape-font-specification:'Traditional Arabic, Normal';fill:#7137c8">
+      <path
+         d="m 722.49955,489.03532 -12.25001,4.48437 h -4.44791 q -9.26043,0 -14.43751,-4.22916 -5.14063,-4.19271 -5.14063,-11.73959 0,-12.90626 13.67188,-21.14585 -4.33854,-0.91145 -6.67188,-0.91145 -2.11458,0 -4.77604,0.6927 l 0.76563,-3.68229 q 3.60937,-1.93229 6.41667,-1.93229 1.42187,0 5.6875,0.80208 4.26563,0.76563 9.55209,0.76563 3.13541,0 6.125,-0.21875 l -1.85938,3.71875 q -12.17709,0.98437 -19.65105,6.45313 -7.18229,5.32292 -7.18229,12.61459 0,6.81771 5.90625,10.57292 5.94271,3.75521 16.66147,3.75521 3.35416,0 11.41146,-0.76563 z"
+         id="path1765" />
+    </g>
     <g
        id="g7262"
        transform="translate(181.57586,-106.23053)">
@@ -646,12 +684,14 @@
          stroke-width="2"
          id="rect180"
          style="fill:#e5ebff;fill-opacity:1" />
-      <text
-         x="385.81177"
-         y="600.21265"
-         fill="#000000"
+      <g
+         aria-label="خ"
          id="text182"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:74.6667px;font-family:'Traditional Arabic';-inkscape-font-specification:'Traditional Arabic, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#7137c8">خ</text>
+         style="font-size:74.6667px;font-family:'Traditional Arabic';-inkscape-font-specification:'Traditional Arabic, Normal';fill:#7137c8">
+        <path
+           d="m 423.58262,618.80641 -12.25001,4.48437 h -4.44792 q -9.26042,0 -14.4375,-4.22917 -5.14063,-4.19271 -5.14063,-11.73959 0,-12.90625 13.67188,-21.14584 -4.33854,-0.91146 -6.67188,-0.91146 -2.11458,0 -4.77604,0.69271 l 0.76562,-3.68229 q 3.60938,-1.93229 6.41667,-1.93229 1.42188,0 5.68751,0.80208 4.26562,0.76562 9.55209,0.76562 3.13541,0 6.125,-0.21875 l -1.85938,3.71876 q -12.17709,0.98437 -19.65105,6.45312 -7.18229,5.32292 -7.18229,12.61459 0,6.81772 5.90625,10.57293 5.94271,3.75521 16.66147,3.75521 3.35416,0 11.41146,-0.76563 z m -18.59376,-48.74482 -2.58854,3.71875 -3.60938,-2.47917 2.47917,-3.57291 z"
+           id="path1768" />
+      </g>
     </g>
     <g
        id="g3640"
@@ -668,12 +708,14 @@
          stroke-width="2"
          id="rect188"
          style="fill:#f6ffff;fill-opacity:1" />
-      <text
-         x="842.93683"
-         y="580.88715"
-         fill="#000000"
+      <g
+         aria-label="ذ"
          id="text190"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:74.6667px;font-family:'Traditional Arabic';-inkscape-font-specification:'Traditional Arabic, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#7137c8">ذ</text>
+         style="font-size:74.6667px;font-family:'Traditional Arabic';-inkscape-font-specification:'Traditional Arabic, Normal';fill:#7137c8">
+        <path
+           d="m 863.90038,567.98089 q 0,2.33333 -1.09375,4.92188 -5.86979,3.71875 -12.25001,3.71875 -1.09375,0 -4.55729,-0.36458 l 0.65625,-5.35938 q 1.56771,0.14583 3.68229,0.14583 7.80209,0 11.84897,-2.625 -0.4375,-5.90625 -10.75521,-9.625 l 1.49479,-5.17709 q 4.44792,0.94792 7.69271,5.25 3.28125,4.26563 3.28125,9.11459 z m -8.20313,-25.08335 -2.44271,3.79167 -3.68229,-2.55208 2.47917,-3.71875 z"
+           id="path1771" />
+      </g>
     </g>
     <g
        id="g7254"
@@ -690,12 +732,14 @@
          stroke-width="2"
          id="rect196"
          style="fill:#f6ffff;fill-opacity:1" />
-      <text
-         x="140.62473"
-         y="494.09396"
-         fill="#000000"
+      <g
+         aria-label="ز"
          id="text198"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:74.6667px;font-family:'Traditional Arabic';-inkscape-font-specification:'Traditional Arabic, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#7137c8">ز</text>
+         style="font-size:74.6667px;font-family:'Traditional Arabic';-inkscape-font-specification:'Traditional Arabic, Normal';fill:#7137c8">
+        <path
+           d="m 162.7914,486.69292 q 0,7 -4.19271,12.46875 -4.15625,5.46876 -9.47917,5.46876 -3.02604,0 -8.05729,-2.26042 l 0.61979,-0.65625 q 2.36979,0.58333 3.86458,0.58333 3.2448,0 6.05209,-1.78646 3.97396,-2.55208 6.63542,-5.72396 2.69792,-3.17187 2.69792,-5.39583 0,-1.4948 -1.53125,-4.48438 -1.53125,-2.98959 -1.53125,-3.9375 0,-0.69271 0.58333,-1.82292 l 1.42188,-2.73438 q 2.91666,4.15626 2.91666,10.28126 z m -2.22396,-21.03647 -2.77083,3.57292 -3.35417,-3.0625 2.69792,-3.42709 z"
+           id="path1774" />
+      </g>
     </g>
     <rect
        x="269.34637"
@@ -709,12 +753,14 @@
        stroke-width="2"
        id="rect204"
        style="fill:#e5ebff;fill-opacity:1" />
-    <text
-       x="292.97397"
-       y="599.07855"
-       fill="#000000"
+    <g
+       aria-label="س"
        id="text206"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:74.6667px;font-family:'Traditional Arabic';-inkscape-font-specification:'Traditional Arabic, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#7137c8">س</text>
+       style="font-size:74.6667px;font-family:'Traditional Arabic';-inkscape-font-specification:'Traditional Arabic, Normal';fill:#7137c8">
+      <path
+         d="m 340.44274,583.40146 q 0,3.71875 -1.45833,6.125 -1.45834,2.3698 -3.71875,2.3698 -2.98959,0 -5.14063,-3.0625 -3.53646,5.35937 -6.92709,5.54167 h -0.29167 q 0,7.18229 -3.35416,12.54167 -4.01042,6.41667 -14.94793,6.41667 -4.52083,0 -7.4375,-2.66146 -2.91667,-2.66146 -2.91667,-6.7448 0,-4.26562 4.01042,-10.46354 l 0.69271,0.2552 q -2.69792,4.9948 -2.69792,8.0573 0,3.17188 2.98958,4.99479 3.02605,1.85938 8.27605,1.85938 4.04688,0 7.4375,-1.38542 3.42709,-1.34896 4.66667,-3.46354 1.13021,-1.93229 1.13021,-5.61459 0,-4.01042 -2.00521,-7.07292 l 1.9323,-4.33854 q 1.09375,1.75 1.64062,3.20833 h 0.83854 q 2.625,0 4.88542,-2.07812 2.26042,-2.11459 3.20834,-5.61459 h 0.51041 q 0.58334,4.5573 5.76042,4.5573 1.34896,0 1.34896,-0.72917 0,-0.69271 -1.82292,-1.96875 l 1.34896,-4.5573 q 2.04167,1.13021 2.04167,3.82813 z"
+         id="path1777" />
+    </g>
     <g
        id="g39710"
        transform="translate(15.960719,108.00936)">
@@ -730,12 +776,14 @@
          stroke-width="2"
          id="rect212"
          style="fill:#e5ebff;fill-opacity:1" />
-      <text
-         x="778.08887"
-         y="486.31018"
-         fill="#000000"
+      <g
+         aria-label="ش"
          id="text214"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:74.6667px;font-family:'Traditional Arabic';-inkscape-font-specification:'Traditional Arabic, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#7137c8">ش</text>
+         style="font-size:74.6667px;font-family:'Traditional Arabic';-inkscape-font-specification:'Traditional Arabic, Normal';fill:#7137c8">
+        <path
+           d="m 825.55764,470.63309 q 0,3.71875 -1.45833,6.125 -1.45834,2.3698 -3.71876,2.3698 -2.29687,0 -5.14062,-3.06251 -2.88021,5.54167 -6.92709,5.54167 h -0.29167 q 0,7.1823 -3.35417,12.54168 -4.01041,6.41667 -14.94792,6.41667 -4.52083,0 -7.4375,-2.66146 -2.91667,-2.66146 -2.91667,-6.7448 0,-4.26563 4.01042,-10.46355 l 0.69271,0.25521 q -2.69792,4.9948 -2.69792,8.0573 0,3.17188 2.98958,4.99479 3.02605,1.85938 8.27605,1.85938 4.04688,0 7.4375,-1.38542 3.42709,-1.34896 4.66667,-3.46354 1.13021,-1.93229 1.13021,-5.61459 0,-4.01042 -2.00521,-7.07292 l 1.93229,-4.33854 q 1.09375,1.75 1.64063,3.20833 h 0.83854 q 2.625,0 4.88542,-2.07812 2.26042,-2.11459 3.20834,-5.61459 h 0.51041 q 0.58334,4.55729 5.76042,4.55729 1.34896,0 1.34896,-0.72916 0,-0.4375 -1.82292,-1.96875 l 1.34896,-4.5573 q 2.04167,1.13021 2.04167,3.82813 z m -10.09896,-16.11459 -2.3698,3.79167 -3.60937,-2.29688 2.26041,-4.04688 z m 4.55729,6.48959 -2.22396,4.04687 -3.90104,-2.69792 -2.22396,3.50001 -3.60938,-2.58855 2.26042,-3.90104 3.79167,2.55208 2.11458,-3.46354 z"
+           id="path1780" />
+      </g>
     </g>
     <g
        id="g7720"
@@ -752,12 +800,14 @@
          stroke-width="2"
          id="rect220"
          style="fill:#f6ffff;fill-opacity:1" />
-      <text
-         x="543.56592"
-         y="294.60077"
-         fill="#000000"
+      <g
+         aria-label="غ"
          id="text222"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:74.6667px;font-family:'Traditional Arabic';-inkscape-font-specification:'Traditional Arabic, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#7137c8">غ</text>
+         style="font-size:74.6667px;font-family:'Traditional Arabic';-inkscape-font-specification:'Traditional Arabic, Normal';fill:#7137c8">
+        <path
+           d="m 581.11802,313.12161 -11.30209,4.22917 q -2.15104,0.32813 -4.15625,0.32813 -9.11459,0 -14.76563,-4.22917 -5.54167,-4.22917 -5.54167,-11.22918 0,-5.28646 1.93229,-9.88021 0.51042,-1.16667 1.09375,-2.26042 0.61979,-1.09375 1.34896,-2.22396 0.76563,-1.1302 1.67709,-2.29687 0.94791,-1.16667 2.11458,-2.47917 -3.42709,-0.91146 -5.25,-2.44271 -1.78646,-1.56771 -1.78646,-3.57292 0,-1.16666 0.58333,-2.84375 0.58334,-1.67708 1.82292,-3.68229 1.42187,-2.33334 3.24479,-3.53646 1.85938,-1.23959 3.5,-1.23959 0.65625,0 1.53125,0.25521 0.91146,0.25521 1.89584,0.72917 0.98437,0.47396 1.93229,1.13021 0.94792,0.61979 1.71354,1.42187 l -0.29166,0.36459 q -0.72917,-0.29167 -1.45834,-0.4375 -0.69271,-0.18229 -1.71354,-0.18229 -0.61979,0 -1.45833,0.0729 -0.80209,0.0729 -1.82292,0.32813 -0.98438,0.21875 -2.1875,0.69271 -1.16667,0.4375 -2.51563,1.23958 -1.34896,0.80208 -1.75,1.49479 -0.36458,0.65625 -0.36458,1.16667 0,0.61979 0.54687,1.42187 0.58334,0.80209 2.3698,1.71355 2.88021,1.45833 5.50521,1.45833 0.94791,0 2.51562,-0.76562 1.60417,-0.76563 4.44792,-2.44271 1.02084,-0.58334 4.04688,-1.96875 l 0.10937,0.14583 -3.02604,4.70313 q -3.0625,1.75 -5.35938,3.09896 -2.29687,1.34896 -3.82812,2.51562 -9.18751,7.14584 -9.18751,14.94793 0,7.03646 7.80209,11.33854 4.95833,2.77084 15.13021,2.77084 2.51563,0 5.17709,-0.18229 2.66146,-0.14584 5.50521,-0.51042 z m -23.33334,-57.89586 -2.58855,3.82813 -3.46354,-2.91667 2.55208,-3.75521 z"
+           id="path1783" />
+      </g>
     </g>
     <rect
        x="653.33875"
@@ -771,12 +821,14 @@
        stroke-width="2"
        id="rect228"
        style="fill:#e5ebff;fill-opacity:1" />
-    <text
-       x="676.63495"
-       y="383.18832"
-       fill="#000000"
+    <g
+       aria-label="ف"
        id="text230"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:74.6667px;font-family:'Traditional Arabic';-inkscape-font-specification:'Traditional Arabic, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#7137c8">ف</text>
+       style="font-size:74.6667px;font-family:'Traditional Arabic';-inkscape-font-specification:'Traditional Arabic, Normal';fill:#7137c8">
+      <path
+         d="m 728.5881,364.22998 q 0,4.01042 -1.93229,6.05209 -1.89584,2.00521 -7.98438,4.41146 -11.52084,4.52083 -22.85939,4.52083 -15.67709,0 -15.67709,-9.15104 0,-3.60938 3.13542,-9.04167 l 0.91146,0.29166 q -2.1875,3.28126 -2.1875,5.97917 0,3.20834 3.86458,5.32292 3.86459,2.07813 9.8073,2.07813 12.90626,0 26.14064,-5.83334 5.61458,-2.47917 5.61458,-4.04687 0,-1.31251 -1.49479,-3.50001 -1.60417,2.26042 -2.11458,2.77084 -1.3125,1.27604 -3.06251,1.27604 -1.82291,0 -3.0625,-1.23958 -1.23958,-1.27605 -1.23958,-3.09896 0,-1.89584 2.07813,-5.76042 2.1875,-4.04688 4.19271,-4.04688 1.93229,0 3.79166,3.64584 2.07813,4.04687 2.07813,9.36979 z m -5.57813,-5.83333 q 0,-0.51042 -0.80208,-1.0573 -0.76563,-0.58333 -1.75,-0.58333 -1.56771,0 -1.56771,1.42188 0,0.47395 0.65625,1.1302 0.69271,0.65625 1.45833,0.65625 2.00521,0 2.00521,-1.5677 z m -2.55208,-16.40626 -2.36979,3.86458 -3.82813,-2.22396 2.26042,-3.90104 z"
+         id="path1786" />
+    </g>
     <g
        id="g18983"
        transform="translate(-14.793187,91.69436)">
@@ -792,12 +844,14 @@
          stroke-width="2"
          id="rect236"
          style="fill:#e5ebff;fill-opacity:1" />
-      <text
-         x="817.82849"
-         y="401.04965"
-         fill="#000000"
+      <g
+         aria-label="ه"
          id="text238"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:74.6667px;font-family:'Traditional Arabic';-inkscape-font-specification:'Traditional Arabic, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#7137c8">ه</text>
+         style="font-size:74.6667px;font-family:'Traditional Arabic';-inkscape-font-specification:'Traditional Arabic, Normal';fill:#7137c8">
+        <path
+           d="m 851.47955,388.36215 q 0,5.14062 -3.35417,5.14062 -0.83854,0 -2.22396,-0.18229 -1.38542,-0.21875 -3.39063,-0.69271 -1.96875,-0.4375 -3.13541,-0.80208 -1.13021,-0.40104 -1.75,-0.65625 l -3.86459,2.55208 q -0.58333,0.40105 -1.38542,0.83855 -0.76562,0.40104 -1.60416,0.80208 -0.83855,0.36458 -1.71355,0.69271 -0.875,0.29166 -1.64062,0.4375 l -8.38542,-1.27604 v -0.80209 q 1.96875,-0.40104 3.79166,-0.83854 1.85938,-0.4375 3.6823,-0.94792 1.82292,-0.54687 3.64583,-1.16666 1.82292,-0.6198 3.75521,-1.38542 -1.09375,-1.3125 -1.09375,-2.47917 0,-2.95313 4.48438,-8.4948 -0.72917,-0.21875 -1.34896,-0.21875 -0.29167,0 -0.58333,0.0365 -0.25521,0 -0.47396,0.0365 0.875,-5.25 3.5,-5.25 0.69271,0 1.71354,0.51042 1.0573,0.51041 2.26042,1.38541 1.23958,0.875 2.51563,2.07813 1.3125,1.20312 2.47916,2.55208 4.1198,4.84896 4.1198,8.13022 z m -1.20313,1.49479 q -1.85937,-3.90105 -6.85417,-7.76563 -0.72916,3.90104 -2.47916,6.19792 5.28646,1.56771 8.49479,1.56771 z m -8.89583,-5.32292 q 0,-0.47396 -0.21875,-1.05729 -0.1823,-0.58334 -0.54688,-1.09375 -0.32813,-0.51042 -0.76563,-0.83855 -0.4375,-0.36458 -0.91145,-0.36458 -0.54688,0 -1.27605,0.40104 -0.69271,0.40104 -1.3125,1.02084 -0.61979,0.58333 -1.05729,1.27604 -0.40104,0.69271 -0.40104,1.27604 0,0.40104 0.29167,0.76563 0.32812,0.36458 1.05729,0.65625 l 2.625,1.02083 q 2.51563,-1.3125 2.51563,-3.0625 z"
+           id="path1789" />
+      </g>
     </g>
     <rect
        x="-490.31366"
@@ -914,12 +968,14 @@
          stroke-width="2"
          id="rect244"
          style="fill:#f6ffff;fill-opacity:1" />
-      <text
-         x="1097.0635"
-         y="399.38416"
-         fill="#000000"
+      <g
+         aria-label="و"
          id="text246"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:74.6667px;font-family:'Traditional Arabic';-inkscape-font-specification:'Traditional Arabic, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#7137c8">و</text>
+         style="font-size:74.6667px;font-family:'Traditional Arabic';-inkscape-font-specification:'Traditional Arabic, Normal';fill:#7137c8">
+        <path
+           d="m 1121.2718,389.13936 q 0,8.82292 -4.3021,15.85938 -4.3385,7.07292 -9.6614,7.07292 -3.3542,0 -8.8959,-2.91667 l 0.6563,-0.58333 q 2.2239,0.875 4.4114,0.875 5.2136,0 9.9532,-4.52084 2.6979,-2.58854 4.375,-5.97916 1.6406,-3.31771 1.6406,-6.05209 0,-1.64063 -0.7292,-2.91667 -2.151,2.47917 -4.1198,2.47917 -0.9479,0 -1.8593,-0.32813 -0.9115,-0.32812 -1.6407,-0.91146 -0.6927,-0.61979 -1.1302,-1.42187 -0.4375,-0.83854 -0.4375,-1.82292 0,-1.02083 0.4011,-2.69792 0.401,-1.67708 1.6771,-4.04687 0.8385,-1.56771 1.8958,-2.33334 1.0573,-0.80208 2.1146,-0.80208 1.0573,0 2.1146,0.83854 1.0573,0.80208 1.8958,2.47917 1.6406,3.35417 1.6406,7.72917 z m -4.5937,-3.53646 q -0.9479,-1.60417 -2.4427,-1.60417 -0.8386,0 -1.2396,0.4375 -0.4011,0.40104 -0.4011,0.91146 0,1.56771 1.7865,1.56771 0.875,0 1.4219,-0.32813 0.5468,-0.32812 0.875,-0.98437 z"
+           id="path1792" />
+      </g>
     </g>
     <g
        id="g39859"
@@ -936,12 +992,14 @@
          stroke-width="2"
          id="rect252"
          style="fill:#f6ffff;fill-opacity:1" />
-      <text
-         x="1215.1427"
-         y="402.31903"
-         fill="#000000"
+      <g
+         aria-label="ي"
          id="text254"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:74.6667px;font-family:'Traditional Arabic';-inkscape-font-specification:'Traditional Arabic, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#7137c8">ي</text>
+         style="font-size:74.6667px;font-family:'Traditional Arabic';-inkscape-font-specification:'Traditional Arabic, Normal';fill:#7137c8">
+        <path
+           d="m 1254.9552,374.39193 -1.0573,5.28646 q -1.3854,-1.34895 -2.9166,-1.34895 -2.9167,0 -6.9636,2.66146 -4.0104,2.66146 -4.0104,5.72396 0,2.51562 4.2656,3.28125 l 5.4688,0.98437 q 3.2448,0.58334 3.2448,2.3698 0,2.88021 -1.1667,4.77604 -1.8594,3.02604 -8.8958,5.90625 -7.0365,2.91667 -12.6146,2.91667 -6.0521,0 -9.5521,-2.66146 -3.4636,-2.66146 -3.4636,-7.25521 0,-3.68229 1.8594,-7.98438 0.9479,-2.22396 3.8281,-7.32813 l 0.8386,0.65625 q -3.974,7.58334 -3.974,11.19272 0,3.79167 3.2084,6.08854 3.2448,2.29688 8.6041,2.29688 5.25,0 12.2865,-2.58855 6.599,-2.44271 6.599,-3.75521 0,-1.02083 -1.8594,-1.27604 l -5.1042,-0.69271 q -6.2708,-0.83854 -6.2708,-4.92187 0,-3.50001 5.6146,-9.47918 4.9583,-5.28646 9.625,-5.28646 1.0573,0 2.4062,0.4375 z m -15.4583,37.04169 -2.4792,3.79167 -3.7917,-2.44271 -2.0416,3.42708 -3.9375,-2.55208 2.3698,-3.9375 3.8281,2.44271 2.0781,-3.35417 z"
+           id="path1795" />
+      </g>
     </g>
     <text
        class="letters-map-group-label"
