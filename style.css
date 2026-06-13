@@ -202,7 +202,36 @@ a {
   font-family: "Amiri", serif;
 }
 
+.letters-map-frame {
+  width: 100%;
+  overflow-x: auto;
+  padding: 18px;
+  background: linear-gradient(180deg, #fffdfa 0%, #f3ece0 100%);
+  border: 1px solid #d9cfbf;
+  border-radius: 16px;
+}
+
+.letters-map-svg {
+  display: block; 
+  margin: 0 auto;
+  height: auto;
+}
+
 @media (max-width: 600px) {
+
+   .letters-map-frame {
+    padding: 5px;
+  }
+
+  .letters-map-svg {
+    width: 300px;
+    height: auto;
+  }
+
+  .letters-map {
+    width: 600px;
+    height: auto;
+  }
     
 .letter-char {
   font-size: 1.3em; 
@@ -274,6 +303,14 @@ a {
     padding: 1px 2px;
     font-size: 0.8em;
     font-weight: lighter;
+  }
+
+  .letters-map-group-label {
+    font-size: 16px;
+  }
+
+  .letters-map-secondary-label {
+    font-size: 16px;
   }
 }
 
@@ -423,4 +460,14 @@ td.legend-start span {
 
 .align-right {
   text-align: right;
+}
+
+@media (max-width: 600px) {
+  .letters-map-frame {
+    padding: 12px;
+  }
+
+  .letters-map-cell text {
+    font-size: 36px;
+  }
 }
